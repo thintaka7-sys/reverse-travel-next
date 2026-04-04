@@ -1,0 +1,2884 @@
+[
+  {
+    "id": "kyoto-01",
+    "name": "京都",
+    "prefecture": "京都府",
+    "themes": [
+      "歴史",
+      "グルメ",
+      "自然"
+    ],
+    "description": "千年の都。金閣寺や清水寺など世界遺産が点在し、四季折々の美しさと伝統文化が息づく日本屈指の観光地。",
+    "scene": [
+      "カップル",
+      "子連れ",
+      "一人旅"
+    ],
+    "season": "春の桜と秋の紅葉が特に人気。夏は祇園祭、冬は雪の金閣寺が幻想的。",
+    "transport": {
+      "東京": {
+        "cost": 6800,
+        "minutes": 135,
+        "method": "新幹線"
+      },
+      "大阪": {
+        "cost": 570,
+        "minutes": 30,
+        "method": "在来線"
+      },
+      "名古屋": {
+        "cost": 3500,
+        "minutes": 35,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 8000,
+        "minutes": 170,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 300,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 11000,
+        "minutes": 240,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 5000,
+      "standard": 10000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/260000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 伏見稲荷大社",
+        "11:00 清水寺・二年坂散策",
+        "13:00 祇園でランチ",
+        "14:30 金閣寺",
+        "16:30 嵐山・竹林の道"
+      ],
+      "overnight": [
+        "Day1: 伏見稲荷→清水寺→祇園散策→先斗町で夕食",
+        "Day2: 金閣寺→龍安寺→嵐山→竹林の道→渡月橋"
+      ]
+    },
+    "spots": [
+      "伏見稲荷大社",
+      "清水寺",
+      "金閣寺",
+      "嵐山",
+      "祇園"
+    ],
+    "largeAreaCode": "kinki"
+  },
+  {
+    "id": "hakone-01",
+    "name": "箱根",
+    "prefecture": "神奈川県",
+    "themes": [
+      "温泉",
+      "自然",
+      "アクティビティ"
+    ],
+    "description": "都心から気軽にアクセスできる温泉リゾート。芦ノ湖や大涌谷の絶景、美術館巡りも楽しめる。",
+    "scene": [
+      "カップル",
+      "子連れ"
+    ],
+    "season": "秋の紅葉シーズンが絶景。冬は温泉が最高に心地よい季節。",
+    "transport": {
+      "東京": {
+        "cost": 1200,
+        "minutes": 85,
+        "method": "在来線"
+      },
+      "大阪": {
+        "cost": 6500,
+        "minutes": 180,
+        "method": "新幹線"
+      },
+      "名古屋": {
+        "cost": 5000,
+        "minutes": 120,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 12000,
+        "minutes": 300,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 20000,
+        "minutes": 280,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 6000,
+        "minutes": 180,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 8000,
+      "standard": 15000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/140000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 箱根湯本散策",
+        "10:30 彫刻の森美術館",
+        "13:00 大涌谷",
+        "15:00 芦ノ湖遊覧船",
+        "16:30 箱根湯本で温泉"
+      ],
+      "overnight": [
+        "Day1: 箱根湯本→彫刻の森→大涌谷→温泉旅館",
+        "Day2: 芦ノ湖遊覧→箱根神社→ポーラ美術館"
+      ]
+    },
+    "spots": [
+      "大涌谷",
+      "芦ノ湖",
+      "箱根神社",
+      "彫刻の森美術館",
+      "箱根湯本温泉"
+    ],
+    "largeAreaCode": "kanto"
+  },
+  {
+    "id": "nikko-01",
+    "name": "日光",
+    "prefecture": "栃木県",
+    "themes": [
+      "歴史",
+      "自然"
+    ],
+    "description": "世界遺産・日光東照宮を擁する歴史と自然の宝庫。華厳の滝や中禅寺湖など雄大な景観が広がる。",
+    "scene": [
+      "子連れ",
+      "一人旅"
+    ],
+    "season": "秋の紅葉は圧巻。いろは坂のドライブは10月中旬が見頃。",
+    "transport": {
+      "東京": {
+        "cost": 1400,
+        "minutes": 120,
+        "method": "在来線"
+      },
+      "大阪": {
+        "cost": 7500,
+        "minutes": 240,
+        "method": "新幹線"
+      },
+      "名古屋": {
+        "cost": 6000,
+        "minutes": 200,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 15000,
+        "minutes": 360,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 330,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 3500,
+        "minutes": 120,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 6000,
+      "standard": 12000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1578271887552-5ac3a72752bc?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/090000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 日光東照宮",
+        "11:30 輪王寺",
+        "13:00 ランチ",
+        "14:00 華厳の滝",
+        "15:30 中禅寺湖散策"
+      ],
+      "overnight": [
+        "Day1: 東照宮→輪王寺→二荒山神社→温泉",
+        "Day2: 中禅寺湖→華厳の滝→戦場ヶ原ハイキング"
+      ]
+    },
+    "spots": [
+      "日光東照宮",
+      "華厳の滝",
+      "中禅寺湖",
+      "戦場ヶ原",
+      "輪王寺"
+    ],
+    "largeAreaCode": "kanto"
+  },
+  {
+    "id": "kamakura-01",
+    "name": "鎌倉",
+    "prefecture": "神奈川県",
+    "themes": [
+      "歴史",
+      "グルメ",
+      "自然"
+    ],
+    "description": "古都の情緒と湘南の海が共存する人気エリア。大仏や鶴岡八幡宮など歴史的名所と、おしゃれなカフェが魅力。",
+    "scene": [
+      "カップル",
+      "一人旅",
+      "友達"
+    ],
+    "season": "6月のあじさいが有名。夏は由比ヶ浜で海も楽しめる。",
+    "transport": {
+      "東京": {
+        "cost": 940,
+        "minutes": 55,
+        "method": "在来線"
+      },
+      "大阪": {
+        "cost": 6800,
+        "minutes": 180,
+        "method": "新幹線"
+      },
+      "名古屋": {
+        "cost": 5500,
+        "minutes": 140,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 12000,
+        "minutes": 320,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 20000,
+        "minutes": 290,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 5500,
+        "minutes": 180,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 6000,
+      "standard": 11000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/140000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:30 鶴岡八幡宮",
+        "11:00 小町通り散策・ランチ",
+        "13:30 長谷寺",
+        "14:30 鎌倉大仏",
+        "16:00 由比ヶ浜"
+      ],
+      "overnight": [
+        "Day1: 鶴岡八幡宮→小町通り→報国寺→ディナー",
+        "Day2: 長谷寺→大仏→江ノ電で江の島へ"
+      ]
+    },
+    "spots": [
+      "鶴岡八幡宮",
+      "鎌倉大仏",
+      "小町通り",
+      "長谷寺",
+      "由比ヶ浜"
+    ],
+    "largeAreaCode": "kanto"
+  },
+  {
+    "id": "atami-01",
+    "name": "熱海",
+    "prefecture": "静岡県",
+    "themes": [
+      "温泉",
+      "グルメ"
+    ],
+    "description": "東京から新幹線で約45分の温泉リゾート。海の幸と温泉を堪能でき、花火大会も人気。",
+    "scene": [
+      "カップル",
+      "子連れ"
+    ],
+    "season": "夏の花火大会が名物。冬の温泉も格別。",
+    "transport": {
+      "東京": {
+        "cost": 1980,
+        "minutes": 80,
+        "method": "在来線"
+      },
+      "大阪": {
+        "cost": 5500,
+        "minutes": 150,
+        "method": "新幹線"
+      },
+      "名古屋": {
+        "cost": 3800,
+        "minutes": 90,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 11000,
+        "minutes": 280,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 21000,
+        "minutes": 300,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 5500,
+        "minutes": 200,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 7000,
+      "standard": 14000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1542640244-7e672d6cef4e?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/220000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "10:00 熱海駅前商店街",
+        "11:00 來宮神社",
+        "12:30 海鮮ランチ",
+        "14:00 熱海サンビーチ",
+        "15:30 日帰り温泉"
+      ],
+      "overnight": [
+        "Day1: 來宮神社→MOA美術館→温泉旅館",
+        "Day2: 熱海サンビーチ→起雲閣→商店街散策"
+      ]
+    },
+    "spots": [
+      "熱海サンビーチ",
+      "來宮神社",
+      "MOA美術館",
+      "起雲閣",
+      "初島"
+    ],
+    "largeAreaCode": "tokai"
+  },
+  {
+    "id": "kanazawa-01",
+    "name": "金沢",
+    "prefecture": "石川県",
+    "themes": [
+      "歴史",
+      "グルメ",
+      "自然"
+    ],
+    "description": "北陸の古都。兼六園や金沢城、ひがし茶屋街など城下町の風情が残り、新鮮な海鮮も絶品。",
+    "scene": [
+      "カップル",
+      "一人旅",
+      "友達"
+    ],
+    "season": "冬の蟹が絶品。雪吊りの兼六園も風情がある。",
+    "transport": {
+      "東京": {
+        "cost": 7100,
+        "minutes": 150,
+        "method": "新幹線"
+      },
+      "大阪": {
+        "cost": 4000,
+        "minutes": 160,
+        "method": "在来線"
+      },
+      "名古屋": {
+        "cost": 3500,
+        "minutes": 180,
+        "method": "在来線"
+      },
+      "福岡": {
+        "cost": 14000,
+        "minutes": 300,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 20000,
+        "minutes": 300,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 10000,
+        "minutes": 240,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 5500,
+      "standard": 11000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/170000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 近江町市場で朝食",
+        "10:30 兼六園",
+        "12:30 金沢城公園",
+        "14:00 ひがし茶屋街",
+        "16:00 21世紀美術館"
+      ],
+      "overnight": [
+        "Day1: 近江町市場→兼六園→金沢城→片町で夕食",
+        "Day2: ひがし茶屋街→21世紀美術館→にし茶屋街"
+      ]
+    },
+    "spots": [
+      "兼六園",
+      "ひがし茶屋街",
+      "21世紀美術館",
+      "近江町市場",
+      "金沢城"
+    ],
+    "largeAreaCode": "hokuriku"
+  },
+  {
+    "id": "hiroshima-01",
+    "name": "広島",
+    "prefecture": "広島県",
+    "themes": [
+      "歴史",
+      "グルメ"
+    ],
+    "description": "平和記念公園と世界遺産・厳島神社の2大スポットを擁する。お好み焼きや牡蠣など食も充実。",
+    "scene": [
+      "子連れ",
+      "一人旅",
+      "友達"
+    ],
+    "season": "春は平和公園の桜が美しい。秋は宮島の紅葉が見事。",
+    "transport": {
+      "東京": {
+        "cost": 9500,
+        "minutes": 240,
+        "method": "新幹線"
+      },
+      "大阪": {
+        "cost": 5000,
+        "minutes": 90,
+        "method": "新幹線"
+      },
+      "名古屋": {
+        "cost": 6500,
+        "minutes": 120,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 4500,
+        "minutes": 60,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 20000,
+        "minutes": 270,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 13000,
+        "minutes": 300,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 5000,
+      "standard": 9000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1576053139778-7e32f2ae3cfd?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/340000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 平和記念公園",
+        "11:00 原爆ドーム",
+        "12:30 お好み焼きランチ",
+        "14:00 宮島フェリー",
+        "15:00 厳島神社"
+      ],
+      "overnight": [
+        "Day1: 平和記念公園→原爆ドーム→お好み焼き村→市内散策",
+        "Day2: 宮島→厳島神社→弥山ハイキング"
+      ]
+    },
+    "spots": [
+      "厳島神社",
+      "平和記念公園",
+      "原爆ドーム",
+      "宮島",
+      "縮景園"
+    ],
+    "largeAreaCode": "chugoku"
+  },
+  {
+    "id": "fukuoka-city-01",
+    "name": "福岡市内",
+    "prefecture": "福岡県",
+    "themes": [
+      "グルメ",
+      "歴史"
+    ],
+    "description": "博多ラーメン・もつ鍋・屋台など食の都。太宰府天満宮やキャナルシティなど見どころも豊富。",
+    "scene": [
+      "友達",
+      "一人旅",
+      "カップル"
+    ],
+    "season": "5月の博多どんたくや7月の博多祇園山笠は必見。",
+    "transport": {
+      "東京": {
+        "cost": 12000,
+        "minutes": 300,
+        "method": "新幹線"
+      },
+      "大阪": {
+        "cost": 7500,
+        "minutes": 150,
+        "method": "新幹線"
+      },
+      "名古屋": {
+        "cost": 9000,
+        "minutes": 200,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 300,
+        "minutes": 10,
+        "method": "在来線"
+      },
+      "札幌": {
+        "cost": 18000,
+        "minutes": 240,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 16000,
+        "minutes": 360,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 4500,
+      "standard": 9000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1590559899731-a382839e5549?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/400000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "10:00 太宰府天満宮",
+        "12:30 博多ラーメンランチ",
+        "14:00 キャナルシティ",
+        "16:00 大濠公園",
+        "18:00 中洲屋台"
+      ],
+      "overnight": [
+        "Day1: 太宰府天満宮→博多ラーメン→中洲屋台",
+        "Day2: 福岡タワー→大濠公園→天神ショッピング"
+      ]
+    },
+    "spots": [
+      "太宰府天満宮",
+      "中洲屋台",
+      "キャナルシティ博多",
+      "大濠公園",
+      "福岡タワー"
+    ],
+    "largeAreaCode": "kyushu"
+  },
+  {
+    "id": "sapporo-01",
+    "name": "札幌",
+    "prefecture": "北海道",
+    "themes": [
+      "グルメ",
+      "自然"
+    ],
+    "description": "北海道の玄関口。味噌ラーメン・ジンギスカン・海鮮丼などグルメの宝庫。",
+    "scene": [
+      "友達",
+      "カップル",
+      "子連れ"
+    ],
+    "season": "2月の雪まつりは世界的に有名。夏は避暑地として最高。",
+    "transport": {
+      "東京": {
+        "cost": 15000,
+        "minutes": 100,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 14000,
+        "minutes": 120,
+        "method": "飛行機"
+      },
+      "名古屋": {
+        "cost": 13000,
+        "minutes": 110,
+        "method": "飛行機"
+      },
+      "福岡": {
+        "cost": 18000,
+        "minutes": 150,
+        "method": "飛行機"
+      },
+      "札幌": {
+        "cost": 300,
+        "minutes": 10,
+        "method": "在来線"
+      },
+      "仙台": {
+        "cost": 10000,
+        "minutes": 90,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 4500,
+      "standard": 9000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1583767439498-bf26d7d18082?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/010000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 大通公園",
+        "10:00 時計台",
+        "11:30 二条市場で海鮮丼",
+        "13:30 北海道大学",
+        "15:00 白い恋人パーク"
+      ],
+      "overnight": [
+        "Day1: 大通公園→時計台→二条市場→すすきのでジンギスカン",
+        "Day2: 白い恋人パーク→円山動物園→小樽"
+      ]
+    },
+    "spots": [
+      "大通公園",
+      "二条市場",
+      "時計台",
+      "白い恋人パーク",
+      "藻岩山"
+    ],
+    "largeAreaCode": "hokkaido"
+  },
+  {
+    "id": "sendai-01",
+    "name": "仙台",
+    "prefecture": "宮城県",
+    "themes": [
+      "グルメ",
+      "歴史",
+      "自然"
+    ],
+    "description": "杜の都・仙台。牛タンや笹かまぼこなどのご当地グルメと、伊達政宗ゆかりの歴史スポットが魅力。",
+    "scene": [
+      "友達",
+      "カップル",
+      "一人旅"
+    ],
+    "season": "8月の七夕まつりは日本最大級。秋の松島も絶景。",
+    "transport": {
+      "東京": {
+        "cost": 5500,
+        "minutes": 100,
+        "method": "新幹線"
+      },
+      "大阪": {
+        "cost": 10000,
+        "minutes": 240,
+        "method": "新幹線"
+      },
+      "名古屋": {
+        "cost": 8500,
+        "minutes": 200,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 16000,
+        "minutes": 360,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 10000,
+        "minutes": 90,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 300,
+        "minutes": 10,
+        "method": "在来線"
+      }
+    },
+    "lodging": {
+      "budget": 4500,
+      "standard": 8500
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/040000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 瑞鳳殿",
+        "10:30 仙台城跡",
+        "12:00 牛タンランチ",
+        "14:00 松島遊覧船",
+        "16:00 松島散策"
+      ],
+      "overnight": [
+        "Day1: 瑞鳳殿→仙台城跡→牛タン通りで夕食",
+        "Day2: 松島遊覧→瑞巌寺→五大堂→塩釜"
+      ]
+    },
+    "spots": [
+      "松島",
+      "瑞鳳殿",
+      "仙台城跡",
+      "牛タン通り",
+      "秋保温泉"
+    ],
+    "largeAreaCode": "tohoku"
+  },
+  {
+    "id": "nara-01",
+    "name": "奈良",
+    "prefecture": "奈良県",
+    "themes": [
+      "歴史",
+      "自然"
+    ],
+    "description": "古都奈良。東大寺の大仏や春日大社、奈良公園の鹿など、1300年の歴史を体感できる。",
+    "scene": [
+      "子連れ",
+      "カップル",
+      "一人旅"
+    ],
+    "season": "春は桜、秋は紅葉。鹿と一年中触れ合える。",
+    "transport": {
+      "東京": {
+        "cost": 6500,
+        "minutes": 170,
+        "method": "新幹線"
+      },
+      "大阪": {
+        "cost": 560,
+        "minutes": 35,
+        "method": "在来線"
+      },
+      "名古屋": {
+        "cost": 3000,
+        "minutes": 80,
+        "method": "在来線"
+      },
+      "福岡": {
+        "cost": 8500,
+        "minutes": 200,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 310,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 11000,
+        "minutes": 260,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 5000,
+      "standard": 9000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1624601573012-efb68f3b28c6?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/290000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 東大寺・大仏殿",
+        "10:30 奈良公園で鹿と散歩",
+        "12:00 ランチ",
+        "13:30 春日大社",
+        "15:00 ならまち散策"
+      ],
+      "overnight": [
+        "Day1: 東大寺→奈良公園→春日大社→ならまちで夕食",
+        "Day2: 法隆寺→薬師寺→唐招提寺"
+      ]
+    },
+    "spots": [
+      "東大寺",
+      "奈良公園",
+      "春日大社",
+      "法隆寺",
+      "ならまち"
+    ],
+    "largeAreaCode": "kinki"
+  },
+  {
+    "id": "nagasaki-01",
+    "name": "長崎",
+    "prefecture": "長崎県",
+    "themes": [
+      "歴史",
+      "グルメ"
+    ],
+    "description": "異国情緒あふれる港町。グラバー園や平和公園、ちゃんぽんやカステラなど独特の食文化も魅力。",
+    "scene": [
+      "カップル",
+      "一人旅"
+    ],
+    "season": "冬のランタンフェスティバルは幻想的。",
+    "transport": {
+      "東京": {
+        "cost": 15000,
+        "minutes": 120,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 12000,
+        "minutes": 120,
+        "method": "飛行機"
+      },
+      "名古屋": {
+        "cost": 13000,
+        "minutes": 130,
+        "method": "飛行機"
+      },
+      "福岡": {
+        "cost": 2500,
+        "minutes": 120,
+        "method": "在来線"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 240,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 18000,
+        "minutes": 240,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 5000,
+      "standard": 9500
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1573455494060-c5595004fb6c?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/420000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 グラバー園",
+        "11:00 大浦天主堂",
+        "12:30 ちゃんぽんランチ",
+        "14:00 平和公園",
+        "16:00 出島"
+      ],
+      "overnight": [
+        "Day1: グラバー園→大浦天主堂→出島→中華街で夕食",
+        "Day2: 平和公園→稲佐山展望台→眼鏡橋"
+      ]
+    },
+    "spots": [
+      "グラバー園",
+      "平和公園",
+      "稲佐山",
+      "出島",
+      "大浦天主堂"
+    ],
+    "largeAreaCode": "kyushu"
+  },
+  {
+    "id": "izu-01",
+    "name": "伊豆",
+    "prefecture": "静岡県",
+    "themes": [
+      "温泉",
+      "自然",
+      "グルメ"
+    ],
+    "description": "温泉と海の幸が楽しめるリゾートエリア。修善寺温泉や城ヶ崎海岸など多彩な魅力が満載。",
+    "scene": [
+      "カップル",
+      "子連れ"
+    ],
+    "season": "春は河津桜が早咲き。夏は海水浴も楽しめる。",
+    "transport": {
+      "東京": {
+        "cost": 2500,
+        "minutes": 100,
+        "method": "在来線"
+      },
+      "大阪": {
+        "cost": 6000,
+        "minutes": 180,
+        "method": "新幹線"
+      },
+      "名古屋": {
+        "cost": 4000,
+        "minutes": 120,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 12000,
+        "minutes": 300,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 300,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 6500,
+        "minutes": 220,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 7000,
+      "standard": 14000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1503640538573-148065ba6267?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/220000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:30 修善寺温泉街散策",
+        "11:00 竹林の小径",
+        "12:30 海鮮ランチ",
+        "14:00 城ヶ崎海岸",
+        "16:00 日帰り温泉"
+      ],
+      "overnight": [
+        "Day1: 修善寺→竹林の小径→温泉旅館",
+        "Day2: 城ヶ崎海岸→大室山→海鮮丼"
+      ]
+    },
+    "spots": [
+      "修善寺温泉",
+      "城ヶ崎海岸",
+      "大室山",
+      "浄蓮の滝",
+      "下田"
+    ],
+    "largeAreaCode": "tokai"
+  },
+  {
+    "id": "takayama-01",
+    "name": "高山",
+    "prefecture": "岐阜県",
+    "themes": [
+      "歴史",
+      "グルメ",
+      "自然"
+    ],
+    "description": "飛騨の小京都。古い町並みや朝市、飛騨牛など魅力満載。白川郷へのアクセスも良好。",
+    "scene": [
+      "カップル",
+      "一人旅",
+      "友達"
+    ],
+    "season": "春と秋の高山祭は日本三大美祭の一つ。",
+    "transport": {
+      "東京": {
+        "cost": 7000,
+        "minutes": 180,
+        "method": "新幹線+在来線"
+      },
+      "大阪": {
+        "cost": 4500,
+        "minutes": 200,
+        "method": "在来線"
+      },
+      "名古屋": {
+        "cost": 3200,
+        "minutes": 140,
+        "method": "在来線"
+      },
+      "福岡": {
+        "cost": 14000,
+        "minutes": 340,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 330,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 10000,
+        "minutes": 280,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 6000,
+      "standard": 12000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1578469645742-46cae010e5d6?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/210000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 宮川朝市",
+        "10:30 古い町並み散策",
+        "12:00 飛騨牛ランチ",
+        "14:00 高山陣屋",
+        "15:30 飛騨の里"
+      ],
+      "overnight": [
+        "Day1: 朝市→古い町並み→飛騨牛→温泉",
+        "Day2: 白川郷日帰りツアー"
+      ]
+    },
+    "spots": [
+      "古い町並み",
+      "宮川朝市",
+      "高山陣屋",
+      "飛騨の里",
+      "白川郷"
+    ],
+    "largeAreaCode": "tokai"
+  },
+  {
+    "id": "okinawa-01",
+    "name": "沖縄（那覇）",
+    "prefecture": "沖縄県",
+    "themes": [
+      "自然",
+      "グルメ",
+      "アクティビティ"
+    ],
+    "description": "美しいビーチと独自の琉球文化。首里城やおきなわワールド、国際通りなど見どころ豊富。",
+    "scene": [
+      "子連れ",
+      "カップル",
+      "友達"
+    ],
+    "season": "梅雨明けの7月以降がベストシーズン。",
+    "transport": {
+      "東京": {
+        "cost": 15000,
+        "minutes": 160,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 12000,
+        "minutes": 130,
+        "method": "飛行機"
+      },
+      "名古屋": {
+        "cost": 13000,
+        "minutes": 140,
+        "method": "飛行機"
+      },
+      "福岡": {
+        "cost": 9000,
+        "minutes": 100,
+        "method": "飛行機"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 240,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 18000,
+        "minutes": 200,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 5000,
+      "standard": 10000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1590077428593-a55bb07c4665?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/470000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "10:00 首里城",
+        "12:00 国際通りでランチ",
+        "14:00 おきなわワールド",
+        "16:30 波の上ビーチ"
+      ],
+      "overnight": [
+        "Day1: 首里城→国際通り→第一牧志公設市場→夕食",
+        "Day2: 美ら海水族館→万座毛→アメリカンビレッジ"
+      ]
+    },
+    "spots": [
+      "首里城",
+      "国際通り",
+      "美ら海水族館",
+      "万座毛",
+      "波の上ビーチ"
+    ],
+    "largeAreaCode": "okinawa"
+  },
+  {
+    "id": "matsumoto-01",
+    "name": "松本",
+    "prefecture": "長野県",
+    "themes": [
+      "歴史",
+      "自然",
+      "アクティビティ"
+    ],
+    "description": "国宝・松本城を擁する城下町。上高地や美ヶ原高原など、雄大な自然へのアクセス拠点。",
+    "scene": [
+      "カップル",
+      "一人旅"
+    ],
+    "season": "夏の上高地は避暑に最適。秋の紅葉と北アルプスも美しい。",
+    "transport": {
+      "東京": {
+        "cost": 3500,
+        "minutes": 160,
+        "method": "在来線"
+      },
+      "大阪": {
+        "cost": 5500,
+        "minutes": 200,
+        "method": "在来線"
+      },
+      "名古屋": {
+        "cost": 3000,
+        "minutes": 120,
+        "method": "在来線"
+      },
+      "福岡": {
+        "cost": 14000,
+        "minutes": 340,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 20000,
+        "minutes": 300,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 7000,
+        "minutes": 240,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 5000,
+      "standard": 10000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1604867206178-e7b7f0aae67c?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/200000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 松本城",
+        "10:30 中町通り散策",
+        "12:00 信州そばランチ",
+        "13:30 旧開智学校",
+        "15:00 縄手通り"
+      ],
+      "overnight": [
+        "Day1: 松本城→中町通り→信州そば→温泉",
+        "Day2: 上高地ハイキング→大正池→河童橋"
+      ]
+    },
+    "spots": [
+      "松本城",
+      "上高地",
+      "中町通り",
+      "旧開智学校",
+      "美ヶ原高原"
+    ],
+    "largeAreaCode": "koushinetsu"
+  },
+  {
+    "id": "beppu-01",
+    "name": "別府",
+    "prefecture": "大分県",
+    "themes": [
+      "温泉",
+      "グルメ",
+      "自然"
+    ],
+    "description": "日本一の湧出量を誇る温泉の街。地獄めぐりや砂湯など多彩な温泉体験ができる。",
+    "scene": [
+      "カップル",
+      "友達",
+      "一人旅"
+    ],
+    "season": "冬の温泉が格別。湯けむりが立ち上る街並みは一年中楽しめる。",
+    "transport": {
+      "東京": {
+        "cost": 16000,
+        "minutes": 130,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 10000,
+        "minutes": 120,
+        "method": "飛行機"
+      },
+      "名古屋": {
+        "cost": 12000,
+        "minutes": 120,
+        "method": "飛行機"
+      },
+      "福岡": {
+        "cost": 3000,
+        "minutes": 120,
+        "method": "在来線"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 260,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 18000,
+        "minutes": 240,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 5000,
+      "standard": 10000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/440000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 海地獄",
+        "10:30 血の池地獄",
+        "12:00 地獄蒸し料理ランチ",
+        "14:00 竹瓦温泉",
+        "15:30 明礬温泉"
+      ],
+      "overnight": [
+        "Day1: 地獄めぐり→地獄蒸し→温泉旅館",
+        "Day2: 竹瓦温泉→別府タワー→関サバランチ"
+      ]
+    },
+    "spots": [
+      "地獄めぐり",
+      "竹瓦温泉",
+      "明礬温泉",
+      "別府ロープウェイ",
+      "関サバ"
+    ],
+    "largeAreaCode": "kyushu"
+  },
+  {
+    "id": "kusatsu-01",
+    "name": "草津",
+    "prefecture": "群馬県",
+    "themes": [
+      "温泉"
+    ],
+    "description": "日本三名泉の一つ。湯畑を中心に温泉情緒あふれる街並みが広がる。",
+    "scene": [
+      "カップル",
+      "友達"
+    ],
+    "season": "冬の雪見温泉は最高の贅沢。湯畑のライトアップも幻想的。",
+    "transport": {
+      "東京": {
+        "cost": 2500,
+        "minutes": 180,
+        "method": "在来線+バス"
+      },
+      "大阪": {
+        "cost": 8000,
+        "minutes": 300,
+        "method": "新幹線"
+      },
+      "名古屋": {
+        "cost": 6000,
+        "minutes": 240,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 15000,
+        "minutes": 400,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 360,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 5000,
+        "minutes": 200,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 8000,
+      "standard": 16000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/100000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "10:00 湯畑散策",
+        "11:00 熱乃湯（湯もみショー）",
+        "12:30 ランチ",
+        "14:00 西の河原公園",
+        "15:30 日帰り温泉"
+      ],
+      "overnight": [
+        "Day1: 湯畑→熱乃湯→西の河原公園→温泉旅館",
+        "Day2: 草津熱帯圏→湯畑ライトアップ"
+      ]
+    },
+    "spots": [
+      "湯畑",
+      "西の河原公園",
+      "熱乃湯",
+      "草津国際スキー場",
+      "草津熱帯圏"
+    ],
+    "largeAreaCode": "kanto"
+  },
+  {
+    "id": "miyajima-01",
+    "name": "宮島",
+    "prefecture": "広島県",
+    "themes": [
+      "歴史",
+      "自然",
+      "グルメ"
+    ],
+    "description": "世界遺産・厳島神社がある神の島。海に浮かぶ大鳥居は日本を代表する絶景。",
+    "scene": [
+      "カップル",
+      "子連れ"
+    ],
+    "season": "秋の紅葉が特に美しい。干潮時は大鳥居まで歩ける。",
+    "transport": {
+      "東京": {
+        "cost": 10000,
+        "minutes": 260,
+        "method": "新幹線"
+      },
+      "大阪": {
+        "cost": 5500,
+        "minutes": 110,
+        "method": "新幹線"
+      },
+      "名古屋": {
+        "cost": 7000,
+        "minutes": 140,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 5000,
+        "minutes": 80,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 21000,
+        "minutes": 290,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 14000,
+        "minutes": 320,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 8000,
+      "standard": 15000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/340000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "10:00 フェリーで宮島到着",
+        "10:30 厳島神社参拝",
+        "12:00 表参道で牡蠣・もみじ饅頭",
+        "14:00 弥山ロープウェイ",
+        "16:00 大鳥居散策"
+      ],
+      "overnight": [
+        "Day1: 厳島神社→表参道→弥山→宮島泊",
+        "Day2: 朝の大鳥居→紅葉谷→フェリーで帰路"
+      ]
+    },
+    "spots": [
+      "厳島神社",
+      "大鳥居",
+      "弥山",
+      "紅葉谷公園",
+      "表参道商店街"
+    ],
+    "largeAreaCode": "chugoku"
+  },
+  {
+    "id": "kawaguchiko-01",
+    "name": "河口湖",
+    "prefecture": "山梨県",
+    "themes": [
+      "自然",
+      "アクティビティ"
+    ],
+    "description": "富士山の絶景を間近に望む湖畔リゾート。美術館やカフェも充実し、四季を通じて楽しめる。",
+    "scene": [
+      "カップル",
+      "子連れ",
+      "友達"
+    ],
+    "season": "春の桜と富士山の共演が絶景。冬は富士山がくっきり。",
+    "transport": {
+      "東京": {
+        "cost": 1800,
+        "minutes": 120,
+        "method": "在来線+バス"
+      },
+      "大阪": {
+        "cost": 6000,
+        "minutes": 200,
+        "method": "新幹線"
+      },
+      "名古屋": {
+        "cost": 4500,
+        "minutes": 160,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 13000,
+        "minutes": 320,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 21000,
+        "minutes": 300,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 6500,
+        "minutes": 220,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 6000,
+      "standard": 12000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/190000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 河口湖畔散策",
+        "10:30 カチカチ山ロープウェイ",
+        "12:00 ほうとうランチ",
+        "13:30 大石公園",
+        "15:00 河口湖美術館"
+      ],
+      "overnight": [
+        "Day1: カチカチ山ロープウェイ→大石公園→湖畔の宿",
+        "Day2: 忍野八海→富岳風穴→鳴沢氷穴"
+      ]
+    },
+    "spots": [
+      "天上山公園",
+      "大石公園",
+      "忍野八海",
+      "富岳風穴",
+      "河口湖美術館"
+    ],
+    "largeAreaCode": "koushinetsu"
+  },
+  {
+    "id": "chichibu-01",
+    "name": "秩父",
+    "prefecture": "埼玉県",
+    "themes": [
+      "自然",
+      "歴史"
+    ],
+    "description": "都心から約80分で行ける自然豊かなエリア。三峯神社や長瀞の渓谷美、SL列車も人気。",
+    "scene": [
+      "カップル",
+      "子連れ",
+      "一人旅"
+    ],
+    "season": "春は芝桜の丘が圧巻。12月の夜祭は日本三大曳山祭の一つ。",
+    "transport": {
+      "東京": {
+        "cost": 780,
+        "minutes": 80,
+        "method": "在来線"
+      },
+      "大阪": {
+        "cost": 7000,
+        "minutes": 220,
+        "method": "新幹線"
+      },
+      "名古屋": {
+        "cost": 5500,
+        "minutes": 180,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 13000,
+        "minutes": 340,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 21000,
+        "minutes": 310,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 5500,
+        "minutes": 200,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 5000,
+      "standard": 9000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/110000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 秩父神社",
+        "10:30 SLパレオエクスプレス",
+        "12:00 わらじカツ丼ランチ",
+        "13:30 長瀞ライン下り",
+        "15:30 宝登山神社"
+      ],
+      "overnight": [
+        "Day1: 秩父神社→SL→長瀞→温泉旅館",
+        "Day2: 三峯神社→道の駅ちちぶ"
+      ]
+    },
+    "spots": [
+      "三峯神社",
+      "長瀞",
+      "秩父神社",
+      "羊山公園",
+      "宝登山"
+    ],
+    "largeAreaCode": "kanto"
+  },
+  {
+    "id": "nasu-01",
+    "name": "那須",
+    "prefecture": "栃木県",
+    "themes": [
+      "自然",
+      "アクティビティ",
+      "温泉"
+    ],
+    "description": "皇室御用達の高原リゾート。牧場体験やアウトドア、温泉を一度に楽しめるファミリーに人気のエリア。",
+    "scene": [
+      "子連れ",
+      "カップル"
+    ],
+    "season": "夏は避暑地として人気。秋の那須岳の紅葉は見事。",
+    "transport": {
+      "東京": {
+        "cost": 2700,
+        "minutes": 90,
+        "method": "新幹線"
+      },
+      "大阪": {
+        "cost": 8000,
+        "minutes": 240,
+        "method": "新幹線"
+      },
+      "名古屋": {
+        "cost": 6500,
+        "minutes": 200,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 15000,
+        "minutes": 360,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 21000,
+        "minutes": 300,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 3000,
+        "minutes": 60,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 6000,
+      "standard": 12000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/090000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:30 那須どうぶつ王国",
+        "12:00 高原ランチ",
+        "13:30 那須ロープウェイ",
+        "15:00 鹿の湯"
+      ],
+      "overnight": [
+        "Day1: 那須どうぶつ王国→ハイランドパーク→温泉宿",
+        "Day2: 那須岳ハイキング→殺生石→チーズガーデン"
+      ]
+    },
+    "spots": [
+      "那須どうぶつ王国",
+      "那須ハイランドパーク",
+      "那須岳",
+      "鹿の湯",
+      "チーズガーデン"
+    ],
+    "largeAreaCode": "kanto"
+  },
+  {
+    "id": "enoshima-01",
+    "name": "江の島",
+    "prefecture": "神奈川県",
+    "themes": [
+      "自然",
+      "グルメ"
+    ],
+    "description": "湘南を代表する観光スポット。江島神社やシーキャンドル、しらす丼など海の魅力が凝縮。",
+    "scene": [
+      "カップル",
+      "友達",
+      "一人旅"
+    ],
+    "season": "夏は海水浴客で賑わう。冬のイルミネーションも人気。",
+    "transport": {
+      "東京": {
+        "cost": 650,
+        "minutes": 65,
+        "method": "在来線"
+      },
+      "大阪": {
+        "cost": 6800,
+        "minutes": 190,
+        "method": "新幹線"
+      },
+      "名古屋": {
+        "cost": 5500,
+        "minutes": 150,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 12500,
+        "minutes": 330,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 20000,
+        "minutes": 290,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 5500,
+        "minutes": 190,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 7000,
+      "standard": 13000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/140000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "10:00 江島神社参拝",
+        "11:30 しらす丼ランチ",
+        "13:00 シーキャンドル",
+        "14:30 岩屋洞窟",
+        "16:00 夕日を眺めながら帰路"
+      ],
+      "overnight": [
+        "Day1: 江島神社→シーキャンドル→しらす丼→鎌倉へ",
+        "Day2: 鎌倉大仏→長谷寺→小町通り"
+      ]
+    },
+    "spots": [
+      "江島神社",
+      "シーキャンドル",
+      "岩屋",
+      "サムエル・コッキング苑",
+      "片瀬海岸"
+    ],
+    "largeAreaCode": "kanto"
+  },
+  {
+    "id": "kinosaki-01",
+    "name": "城崎温泉",
+    "prefecture": "兵庫県",
+    "themes": [
+      "温泉",
+      "グルメ"
+    ],
+    "description": "7つの外湯めぐりが楽しめる風情ある温泉街。冬の松葉蟹は絶品。浴衣で街歩きが定番。",
+    "scene": [
+      "カップル",
+      "友達"
+    ],
+    "season": "冬の松葉蟹シーズン（11〜3月）が最高。",
+    "transport": {
+      "東京": {
+        "cost": 8500,
+        "minutes": 210,
+        "method": "新幹線"
+      },
+      "大阪": {
+        "cost": 2600,
+        "minutes": 150,
+        "method": "在来線"
+      },
+      "名古屋": {
+        "cost": 5000,
+        "minutes": 180,
+        "method": "在来線"
+      },
+      "福岡": {
+        "cost": 10000,
+        "minutes": 240,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 330,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 13000,
+        "minutes": 300,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 8000,
+      "standard": 18000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/280000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "10:00 さとの湯",
+        "11:30 温泉街散策",
+        "12:30 蟹料理ランチ",
+        "14:00 一の湯→御所の湯",
+        "16:00 まんだら湯"
+      ],
+      "overnight": [
+        "Day1: 外湯めぐり3湯→蟹料理の宿→夜の温泉街",
+        "Day2: 残りの外湯→城崎ロープウェイ→温泉寺"
+      ]
+    },
+    "spots": [
+      "外湯めぐり",
+      "城崎ロープウェイ",
+      "温泉寺",
+      "城崎文芸館",
+      "玄武洞"
+    ],
+    "largeAreaCode": "kinki"
+  },
+  {
+    "id": "shirahama-01",
+    "name": "白浜",
+    "prefecture": "和歌山県",
+    "themes": [
+      "温泉",
+      "自然",
+      "アクティビティ"
+    ],
+    "description": "白砂のビーチと良質な温泉が共存するリゾート。アドベンチャーワールドのパンダも大人気。",
+    "scene": [
+      "子連れ",
+      "カップル",
+      "友達"
+    ],
+    "season": "夏はビーチが最高。冬も温泉とクエ料理で楽しめる。",
+    "transport": {
+      "東京": {
+        "cost": 8000,
+        "minutes": 180,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 2500,
+        "minutes": 140,
+        "method": "在来線"
+      },
+      "名古屋": {
+        "cost": 4000,
+        "minutes": 180,
+        "method": "在来線"
+      },
+      "福岡": {
+        "cost": 12000,
+        "minutes": 280,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 330,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 14000,
+        "minutes": 300,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 6000,
+      "standard": 13000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/300000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:30 アドベンチャーワールド",
+        "13:00 海鮮ランチ",
+        "14:30 白良浜",
+        "16:00 円月島の夕日"
+      ],
+      "overnight": [
+        "Day1: アドベンチャーワールド→白良浜→温泉宿",
+        "Day2: 三段壁→千畳敷→とれとれ市場"
+      ]
+    },
+    "spots": [
+      "アドベンチャーワールド",
+      "白良浜",
+      "三段壁",
+      "千畳敷",
+      "円月島"
+    ],
+    "largeAreaCode": "kinki"
+  },
+  {
+    "id": "arima-01",
+    "name": "有馬温泉",
+    "prefecture": "兵庫県",
+    "themes": [
+      "温泉",
+      "グルメ"
+    ],
+    "description": "日本三古泉の一つ。金泉・銀泉の2種の温泉と、神戸市街からのアクセスの良さが魅力。",
+    "scene": [
+      "カップル",
+      "一人旅"
+    ],
+    "season": "秋の紅葉と温泉の組み合わせが最高。",
+    "transport": {
+      "東京": {
+        "cost": 7000,
+        "minutes": 180,
+        "method": "新幹線"
+      },
+      "大阪": {
+        "cost": 1000,
+        "minutes": 60,
+        "method": "在来線"
+      },
+      "名古屋": {
+        "cost": 4000,
+        "minutes": 100,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 8500,
+        "minutes": 180,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 310,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 11500,
+        "minutes": 260,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 9000,
+      "standard": 18000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/280000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "10:00 金の湯",
+        "11:30 温泉街散策",
+        "12:30 ランチ",
+        "14:00 銀の湯",
+        "15:30 瑞宝寺公園"
+      ],
+      "overnight": [
+        "Day1: 金の湯→温泉街→旅館で金泉を堪能",
+        "Day2: 六甲山→神戸北野異人館"
+      ]
+    },
+    "spots": [
+      "金の湯",
+      "銀の湯",
+      "瑞宝寺公園",
+      "温泉寺",
+      "太閤の湯"
+    ],
+    "largeAreaCode": "kinki"
+  },
+  {
+    "id": "otaru-01",
+    "name": "小樽",
+    "prefecture": "北海道",
+    "themes": [
+      "歴史",
+      "グルメ"
+    ],
+    "description": "ノスタルジックな運河の街。ガラス工芸やオルゴール、寿司の名店が並ぶ港町。",
+    "scene": [
+      "カップル",
+      "一人旅",
+      "友達"
+    ],
+    "season": "2月の雪あかりの路は幻想的。夏も運河沿いが気持ちいい。",
+    "transport": {
+      "東京": {
+        "cost": 15500,
+        "minutes": 130,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 14500,
+        "minutes": 150,
+        "method": "飛行機"
+      },
+      "名古屋": {
+        "cost": 13500,
+        "minutes": 140,
+        "method": "飛行機"
+      },
+      "福岡": {
+        "cost": 18500,
+        "minutes": 180,
+        "method": "飛行機"
+      },
+      "札幌": {
+        "cost": 750,
+        "minutes": 40,
+        "method": "在来線"
+      },
+      "仙台": {
+        "cost": 10500,
+        "minutes": 120,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 5000,
+      "standard": 10000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1583767439498-bf26d7d18082?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/010000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 小樽運河散策",
+        "10:30 北一硝子",
+        "12:00 寿司屋通りでランチ",
+        "14:00 オルゴール堂",
+        "15:30 天狗山ロープウェイ"
+      ],
+      "overnight": [
+        "Day1: 運河→北一硝子→寿司→夜の運河ライトアップ",
+        "Day2: 天狗山→水族館→余市ニッカウヰスキー"
+      ]
+    },
+    "spots": [
+      "小樽運河",
+      "北一硝子",
+      "寿司屋通り",
+      "オルゴール堂",
+      "天狗山"
+    ],
+    "largeAreaCode": "hokkaido"
+  },
+  {
+    "id": "kagoshima-01",
+    "name": "鹿児島",
+    "prefecture": "鹿児島県",
+    "themes": [
+      "歴史",
+      "グルメ",
+      "自然"
+    ],
+    "description": "桜島を望む南国の城下町。黒豚や焼酎など食文化も豊か。",
+    "scene": [
+      "一人旅",
+      "友達",
+      "カップル"
+    ],
+    "season": "冬も温暖で過ごしやすい。桜島は年中迫力満点。",
+    "transport": {
+      "東京": {
+        "cost": 15000,
+        "minutes": 120,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 12000,
+        "minutes": 90,
+        "method": "飛行機"
+      },
+      "名古屋": {
+        "cost": 13000,
+        "minutes": 100,
+        "method": "飛行機"
+      },
+      "福岡": {
+        "cost": 5000,
+        "minutes": 80,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 240,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 18000,
+        "minutes": 200,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 4500,
+      "standard": 9000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1542640244-7e672d6cef4e?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/460000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 仙巌園",
+        "11:00 天文館散策",
+        "12:30 黒豚しゃぶしゃぶ",
+        "14:00 桜島フェリー",
+        "15:30 桜島展望台"
+      ],
+      "overnight": [
+        "Day1: 仙巌園→天文館→黒豚→夜の天文館",
+        "Day2: 桜島一周→指宿砂むし温泉"
+      ]
+    },
+    "spots": [
+      "桜島",
+      "仙巌園",
+      "天文館",
+      "城山展望台",
+      "指宿砂むし温泉"
+    ],
+    "largeAreaCode": "kyushu"
+  },
+  {
+    "id": "matsuyama-01",
+    "name": "松山",
+    "prefecture": "愛媛県",
+    "themes": [
+      "歴史",
+      "温泉",
+      "グルメ"
+    ],
+    "description": "道後温泉と松山城の城下町。夏目漱石『坊っちゃん』の舞台としても知られる文学の街。",
+    "scene": [
+      "一人旅",
+      "カップル"
+    ],
+    "season": "春の桜と松山城が絶景。道後温泉は一年中楽しめる。",
+    "transport": {
+      "東京": {
+        "cost": 14000,
+        "minutes": 100,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 5000,
+        "minutes": 160,
+        "method": "在来線"
+      },
+      "名古屋": {
+        "cost": 8000,
+        "minutes": 200,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 8000,
+        "minutes": 180,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 270,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 16000,
+        "minutes": 260,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 5000,
+      "standard": 10000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/380000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 松山城",
+        "11:00 道後温泉本館",
+        "12:30 鯛めしランチ",
+        "14:00 坊っちゃんカラクリ時計",
+        "15:00 道後商店街"
+      ],
+      "overnight": [
+        "Day1: 松山城→道後温泉→道後の宿",
+        "Day2: しまなみ海道サイクリング"
+      ]
+    },
+    "spots": [
+      "道後温泉本館",
+      "松山城",
+      "坊っちゃんカラクリ時計",
+      "道後商店街",
+      "しまなみ海道"
+    ],
+    "largeAreaCode": "shikoku"
+  },
+  {
+    "id": "karuizawa-01",
+    "name": "軽井沢",
+    "prefecture": "長野県",
+    "themes": [
+      "自然",
+      "グルメ",
+      "アクティビティ"
+    ],
+    "description": "避暑地として名高い高原リゾート。アウトレットモールや旧軽井沢銀座など、ショッピングも充実。",
+    "scene": [
+      "カップル",
+      "子連れ",
+      "友達"
+    ],
+    "season": "夏は避暑に最適。秋の紅葉、冬はスキーも楽しめる。",
+    "transport": {
+      "東京": {
+        "cost": 2800,
+        "minutes": 70,
+        "method": "新幹線"
+      },
+      "大阪": {
+        "cost": 7000,
+        "minutes": 200,
+        "method": "新幹線"
+      },
+      "名古屋": {
+        "cost": 5500,
+        "minutes": 170,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 14000,
+        "minutes": 340,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 21000,
+        "minutes": 300,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 5000,
+        "minutes": 150,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 7000,
+      "standard": 15000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/200000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:30 旧軽井沢銀座散策",
+        "11:00 雲場池",
+        "12:30 フレンチランチ",
+        "14:00 アウトレット",
+        "16:30 白糸の滝"
+      ],
+      "overnight": [
+        "Day1: 旧軽井沢→雲場池→ハルニレテラス→温泉",
+        "Day2: 白糸の滝→アウトレット→石の教会"
+      ]
+    },
+    "spots": [
+      "旧軽井沢銀座",
+      "雲場池",
+      "白糸の滝",
+      "アウトレットモール",
+      "ハルニレテラス"
+    ],
+    "largeAreaCode": "koushinetsu"
+  },
+  {
+    "id": "yokohama-01",
+    "name": "横浜",
+    "prefecture": "神奈川県",
+    "themes": [
+      "グルメ",
+      "歴史",
+      "アクティビティ"
+    ],
+    "description": "港町の異国情緒とモダンが融合。中華街や赤レンガ倉庫、みなとみらいの夜景が人気。",
+    "scene": [
+      "カップル",
+      "子連れ",
+      "友達"
+    ],
+    "season": "春のバラ園、冬のイルミネーションが見事。",
+    "transport": {
+      "東京": {
+        "cost": 480,
+        "minutes": 30,
+        "method": "在来線"
+      },
+      "大阪": {
+        "cost": 6500,
+        "minutes": 160,
+        "method": "新幹線"
+      },
+      "名古屋": {
+        "cost": 5200,
+        "minutes": 120,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 12000,
+        "minutes": 300,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 20000,
+        "minutes": 270,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 5000,
+        "minutes": 120,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 6000,
+      "standard": 12000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1542640244-7e672d6cef4e?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/140000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "10:00 中華街で食べ歩き",
+        "12:00 山下公園",
+        "13:30 赤レンガ倉庫",
+        "15:00 カップヌードルミュージアム",
+        "17:00 みなとみらい夜景"
+      ],
+      "overnight": [
+        "Day1: 中華街→山下公園→赤レンガ→夜景",
+        "Day2: カップヌードルミュージアム→八景島"
+      ]
+    },
+    "spots": [
+      "中華街",
+      "赤レンガ倉庫",
+      "みなとみらい",
+      "山下公園",
+      "カップヌードルミュージアム"
+    ],
+    "largeAreaCode": "kanto"
+  },
+  {
+    "id": "ise-01",
+    "name": "伊勢",
+    "prefecture": "三重県",
+    "themes": [
+      "歴史",
+      "グルメ"
+    ],
+    "description": "伊勢神宮を擁する聖地。おかげ横丁の食べ歩きや伊勢海老など、お参りとグルメを満喫。",
+    "scene": [
+      "カップル",
+      "一人旅",
+      "子連れ"
+    ],
+    "season": "1月の初詣は荘厳。春秋が快適。",
+    "transport": {
+      "東京": {
+        "cost": 6000,
+        "minutes": 180,
+        "method": "新幹線"
+      },
+      "大阪": {
+        "cost": 2000,
+        "minutes": 100,
+        "method": "在来線"
+      },
+      "名古屋": {
+        "cost": 1500,
+        "minutes": 80,
+        "method": "在来線"
+      },
+      "福岡": {
+        "cost": 10000,
+        "minutes": 240,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 310,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 9000,
+        "minutes": 240,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 5500,
+      "standard": 11000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1578469645742-46cae010e5d6?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/240000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 伊勢神宮外宮",
+        "10:30 伊勢神宮内宮",
+        "12:00 おかげ横丁で食べ歩き",
+        "14:00 おはらい町散策",
+        "15:30 二見浦・夫婦岩"
+      ],
+      "overnight": [
+        "Day1: 外宮→内宮→おかげ横丁→伊勢海老の宿",
+        "Day2: 二見浦→鳥羽水族館→パールロード"
+      ]
+    },
+    "spots": [
+      "伊勢神宮",
+      "おかげ横丁",
+      "二見浦",
+      "鳥羽水族館",
+      "おはらい町"
+    ],
+    "largeAreaCode": "tokai"
+  },
+  {
+    "id": "hakodate-01",
+    "name": "函館",
+    "prefecture": "北海道",
+    "themes": [
+      "グルメ",
+      "歴史",
+      "自然"
+    ],
+    "description": "世界三大夜景の一つ。函館山からの夜景、朝市の海鮮、五稜郭など見どころ満載の港町。",
+    "scene": [
+      "カップル",
+      "一人旅",
+      "友達"
+    ],
+    "season": "冬の夜景は空気が澄んで最高。クリスマスファンタジーも人気。",
+    "transport": {
+      "東京": {
+        "cost": 12000,
+        "minutes": 250,
+        "method": "新幹線"
+      },
+      "大阪": {
+        "cost": 15000,
+        "minutes": 150,
+        "method": "飛行機"
+      },
+      "名古屋": {
+        "cost": 14000,
+        "minutes": 140,
+        "method": "飛行機"
+      },
+      "福岡": {
+        "cost": 20000,
+        "minutes": 200,
+        "method": "飛行機"
+      },
+      "札幌": {
+        "cost": 4500,
+        "minutes": 210,
+        "method": "在来線"
+      },
+      "仙台": {
+        "cost": 6000,
+        "minutes": 150,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 5000,
+      "standard": 10000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1583767439498-bf26d7d18082?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/010000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "08:00 函館朝市で海鮮丼",
+        "10:00 五稜郭タワー",
+        "12:00 元町散策",
+        "14:00 赤レンガ倉庫群",
+        "17:00 函館山夜景"
+      ],
+      "overnight": [
+        "Day1: 朝市→五稜郭→元町→函館山夜景",
+        "Day2: トラピスチヌ修道院→湯の川温泉→海鮮ランチ"
+      ]
+    },
+    "spots": [
+      "函館山",
+      "函館朝市",
+      "五稜郭",
+      "元町",
+      "赤レンガ倉庫群"
+    ],
+    "largeAreaCode": "hokkaido"
+  },
+  {
+    "id": "kumamoto-01",
+    "name": "熊本",
+    "prefecture": "熊本県",
+    "themes": [
+      "歴史",
+      "グルメ",
+      "自然"
+    ],
+    "description": "熊本城と阿蘇山の雄大な自然。馬刺しやからし蓮根などご当地グルメも豊富。くまモンの故郷。",
+    "scene": [
+      "子連れ",
+      "友達",
+      "一人旅"
+    ],
+    "season": "春の阿蘇は新緑が美しい。秋のススキも風情がある。",
+    "transport": {
+      "東京": {
+        "cost": 14000,
+        "minutes": 110,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 10000,
+        "minutes": 180,
+        "method": "新幹線"
+      },
+      "名古屋": {
+        "cost": 11000,
+        "minutes": 200,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 2500,
+        "minutes": 40,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 240,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 18000,
+        "minutes": 300,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 4500,
+      "standard": 9000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1542640244-7e672d6cef4e?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/430000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 熊本城",
+        "11:00 城彩苑で馬刺し",
+        "13:00 水前寺成趣園",
+        "14:30 くまモンスクエア",
+        "16:00 桜の馬場"
+      ],
+      "overnight": [
+        "Day1: 熊本城→水前寺成趣園→馬刺し→温泉",
+        "Day2: 阿蘇山→草千里ヶ浜→大観峰"
+      ]
+    },
+    "spots": [
+      "熊本城",
+      "阿蘇山",
+      "水前寺成趣園",
+      "大観峰",
+      "草千里ヶ浜"
+    ],
+    "largeAreaCode": "kyushu"
+  },
+  {
+    "id": "tottori-01",
+    "name": "鳥取",
+    "prefecture": "鳥取県",
+    "themes": [
+      "自然",
+      "アクティビティ"
+    ],
+    "description": "日本最大級の砂丘が広がる。ラクダ体験やサンドボードなどアクティブな楽しみ方もできる。",
+    "scene": [
+      "子連れ",
+      "カップル",
+      "友達"
+    ],
+    "season": "春〜秋がベスト。冬の雪化粧した砂丘も珍しい景色。",
+    "transport": {
+      "東京": {
+        "cost": 10000,
+        "minutes": 150,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 3000,
+        "minutes": 150,
+        "method": "在来線"
+      },
+      "名古屋": {
+        "cost": 5000,
+        "minutes": 200,
+        "method": "在来線"
+      },
+      "福岡": {
+        "cost": 9000,
+        "minutes": 240,
+        "method": "新幹線"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 300,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 14000,
+        "minutes": 300,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 4500,
+      "standard": 8500
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/310000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:30 鳥取砂丘",
+        "11:00 砂の美術館",
+        "12:30 海鮮丼ランチ",
+        "14:00 白兎海岸",
+        "15:30 鳥取城跡"
+      ],
+      "overnight": [
+        "Day1: 砂丘→砂の美術館→海鮮→皆生温泉",
+        "Day2: 大山ハイキング→植田正治写真美術館"
+      ]
+    },
+    "spots": [
+      "鳥取砂丘",
+      "砂の美術館",
+      "白兎海岸",
+      "大山",
+      "鳥取城跡"
+    ],
+    "largeAreaCode": "chugoku"
+  },
+  {
+    "id": "noboribetsu-01",
+    "name": "登別温泉",
+    "prefecture": "北海道",
+    "themes": [
+      "温泉",
+      "自然"
+    ],
+    "description": "9種の泉質を持つ温泉天国。地獄谷の迫力ある火山景観とクマ牧場が名物。",
+    "scene": [
+      "カップル",
+      "子連れ"
+    ],
+    "season": "冬の雪見温泉が最高。秋の紅葉も見事。",
+    "transport": {
+      "東京": {
+        "cost": 16000,
+        "minutes": 130,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 15000,
+        "minutes": 150,
+        "method": "飛行機"
+      },
+      "名古屋": {
+        "cost": 14000,
+        "minutes": 140,
+        "method": "飛行機"
+      },
+      "福岡": {
+        "cost": 19000,
+        "minutes": 180,
+        "method": "飛行機"
+      },
+      "札幌": {
+        "cost": 2000,
+        "minutes": 80,
+        "method": "在来線"
+      },
+      "仙台": {
+        "cost": 11000,
+        "minutes": 120,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 7000,
+      "standard": 15000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/010000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:30 地獄谷",
+        "11:00 大湯沼・天然足湯",
+        "12:30 ランチ",
+        "14:00 クマ牧場",
+        "15:30 日帰り温泉"
+      ],
+      "overnight": [
+        "Day1: 地獄谷→大湯沼→温泉旅館",
+        "Day2: クマ牧場→洞爺湖→昭和新山"
+      ]
+    },
+    "spots": [
+      "地獄谷",
+      "大湯沼",
+      "クマ牧場",
+      "洞爺湖",
+      "大湯沼川天然足湯"
+    ],
+    "largeAreaCode": "hokkaido"
+  }
+]
