@@ -4,6 +4,7 @@ import React, { useState, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import { ORIGINS, THEMES, SCENES, SCHEDULES, TRANSPORT_OPTIONS } from '../data/constants';
 import { searchDests } from '../lib/search';
+import { getNearestStation, isStaticOrigin } from '../lib/location';
 
 function formatYen(n: number) { return n.toLocaleString("ja-JP") + "円"; }
 
@@ -22,6 +23,16 @@ export default function SearchForm() {
   const [isLocating, setIsLocating] = useState(false);
 
   const tp = ad + ch + sr;
+
+  // 自由入力の出発地が未対応かどうかチェック
+  const originWarning = useMemo(() => {
+    if (!origin || ORIGINS.includes(origin)) return null;
+    if (isStaticOrigin(origin)) return null;
+    if (getNearestStation(origin) === null) {
+      return '対応していない出発地です。お近くの主要都市名でお試しください。';
+    }
+    return null;
+  }, [origin]);
 
   const resultCount = useMemo(() => {
     if (tp === 0) return 0;
@@ -140,6 +151,11 @@ export default function SearchForm() {
             </button>
           </div>
         </div>
+        {originWarning && (
+          <p className="mt-2 text-[12px] text-orange-600 font-medium bg-orange-50 border border-orange-200 rounded-lg px-3 py-2">
+            ⚠️ {originWarning}
+          </p>
+        )}
       </div>
 
       <div className={secClass}>
