@@ -8,7 +8,10 @@ import { SCHEDULES } from '@/data/constants';
 import destinationsJson from '@/data/destinations.json';
 import BudgetSlider from '@/components/BudgetSlider';
 import DestinationCard from '@/components/DestinationCard';
+import MapView from '@/components/MapView';
 import ResultsClientToolbar from './ResultsClientToolbar';
+import YahooCredit from '@/components/YahooCredit';
+import ShareButton from '@/components/ShareButton';
 
 interface ResultsClientProps {
   initialBudget: number;
@@ -99,9 +102,15 @@ export default function ResultsClient(props: ResultsClientProps) {
   }), [origin, adults, children, seniors, budget, nights,
        themes, transportFilter, sceneFilter, sort, lodgingGrade, transportData]);
 
+  const [viewMode, setViewMode] = useState<'list' | 'map'>('list');
+
   const gradeLabel = lodgingGrade === 'premium' ? 'プレミアム'
     : lodgingGrade === 'standard' ? 'スタンダード' : 'エコノミー';
   const queryString = searchParams.toString();
+
+  const toggleBase = "px-4 py-1.5 text-[13px] font-bold rounded-xl border-[1.5px] transition-all active:scale-95";
+  const toggleOn  = "bg-brown-700 text-white border-brown-700";
+  const toggleOff = "bg-white text-brown-700 border-brown-300 hover:border-brown-600";
 
   return (
     <>
@@ -126,12 +135,38 @@ export default function ResultsClient(props: ResultsClientProps) {
       )}
 
       <div className="flex justify-between items-start mb-4 flex-wrap gap-2 md:flex-row flex-col">
-        <div className="text-[15px] font-bold text-brown-900 md:text-left text-center pt-1">
-          {results.length} 件の旅行先候補
-          <span className="ml-2 text-[11px] font-normal text-brown-500">（宿泊：{gradeLabel}）</span>
+        <div className="flex items-center gap-3 flex-wrap">
+          <div className="text-[15px] font-bold text-brown-900 pt-1">
+            {results.length} 件の旅行先候補
+            <span className="ml-2 text-[11px] font-normal text-brown-500">（宿泊：{gradeLabel}）</span>
+          </div>
+          {/* リスト/マップ トグル */}
+          <div className="flex gap-1 bg-brown-50 rounded-xl p-1 border border-brown-100">
+            <button
+              className={`${toggleBase} ${viewMode === 'list' ? toggleOn : toggleOff}`}
+              onClick={() => setViewMode('list')}
+            >
+              📋 リスト
+            </button>
+            <button
+              className={`${toggleBase} ${viewMode === 'map' ? toggleOn : toggleOff}`}
+              onClick={() => setViewMode('map')}
+            >
+              🗺️ マップ
+            </button>
+          </div>
         </div>
         <ResultsClientToolbar currentSort={sort} currentPp={pp} currentGrade={lodgingGrade} />
       </div>
+
+      <ShareButton
+        results={results}
+        origin={origin}
+        budget={budget}
+        adults={adults}
+        children={children}
+        seniors={seniors}
+      />
 
       {results.length === 0 ? (
         <div className="text-center py-16 px-5 text-brown-500 bg-white/50 rounded-3xl border border-brown-200/50">
@@ -139,6 +174,8 @@ export default function ResultsClient(props: ResultsClientProps) {
           <div className="text-[16px] font-bold text-brown-700">条件に合う旅行先が見つかりませんでした</div>
           <div className="text-[13px] mt-2">予算を上げるか、こだわりの条件を外してみてください。</div>
         </div>
+      ) : viewMode === 'map' ? (
+        <MapView results={results} queryString={queryString} />
       ) : (
         <div className="flex flex-col gap-4">
           {results.map((d, i) => (
@@ -153,6 +190,7 @@ export default function ResultsClient(props: ResultsClientProps) {
         <a href="https://travel.rakuten.co.jp/" target="_blank" rel="noopener noreferrer" className="underline hover:text-brown-600">楽天トラベル</a>
         でご確認ください。
       </p>
+      <YahooCredit />
     </>
   );
 }

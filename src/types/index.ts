@@ -36,4 +36,6 @@ export interface Destination {
   modelCourse: ModelCourse;
   spots: string[];
   largeAreaCode?: string;
+  latitude: number;
+  longitude: number;
 }

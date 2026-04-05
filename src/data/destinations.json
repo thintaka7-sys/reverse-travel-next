@@ -79,7 +79,9 @@
       "嵐山",
       "祇園"
     ],
-    "largeAreaCode": "kinki"
+    "largeAreaCode": "kinki",
+    "latitude": 35.0116,
+    "longitude": 135.7681
   },
   {
     "id": "hakone-01",
@@ -160,7 +162,9 @@
       "彫刻の森美術館",
       "箱根湯本温泉"
     ],
-    "largeAreaCode": "kanto"
+    "largeAreaCode": "kanto",
+    "latitude": 35.2322,
+    "longitude": 139.1069
   },
   {
     "id": "nikko-01",
@@ -240,7 +244,9 @@
       "戦場ヶ原",
       "輪王寺"
     ],
-    "largeAreaCode": "kanto"
+    "largeAreaCode": "kanto",
+    "latitude": 36.7488,
+    "longitude": 139.5991
   },
   {
     "id": "kamakura-01",
@@ -322,7 +328,9 @@
       "長谷寺",
       "由比ヶ浜"
     ],
-    "largeAreaCode": "kanto"
+    "largeAreaCode": "kanto",
+    "latitude": 35.3197,
+    "longitude": 139.5467
   },
   {
     "id": "atami-01",
@@ -402,7 +410,9 @@
       "起雲閣",
       "初島"
     ],
-    "largeAreaCode": "tokai"
+    "largeAreaCode": "tokai",
+    "latitude": 35.0961,
+    "longitude": 139.0712
   },
   {
     "id": "kanazawa-01",
@@ -484,7 +494,9 @@
       "近江町市場",
       "金沢城"
     ],
-    "largeAreaCode": "hokuriku"
+    "largeAreaCode": "hokuriku",
+    "latitude": 36.5944,
+    "longitude": 136.6256
   },
   {
     "id": "hiroshima-01",
@@ -565,7 +577,9 @@
       "宮島",
       "縮景園"
     ],
-    "largeAreaCode": "chugoku"
+    "largeAreaCode": "chugoku",
+    "latitude": 34.3853,
+    "longitude": 132.4553
   },
   {
     "id": "fukuoka-city-01",
@@ -646,7 +660,9 @@
       "大濠公園",
       "福岡タワー"
     ],
-    "largeAreaCode": "kyushu"
+    "largeAreaCode": "kyushu",
+    "latitude": 33.5904,
+    "longitude": 130.4017
   },
   {
     "id": "sapporo-01",
@@ -727,7 +743,9 @@
       "白い恋人パーク",
       "藻岩山"
     ],
-    "largeAreaCode": "hokkaido"
+    "largeAreaCode": "hokkaido",
+    "latitude": 43.0618,
+    "longitude": 141.3545
   },
   {
     "id": "sendai-01",
@@ -809,7 +827,9 @@
       "牛タン通り",
       "秋保温泉"
     ],
-    "largeAreaCode": "tohoku"
+    "largeAreaCode": "tohoku",
+    "latitude": 38.2688,
+    "longitude": 140.8721
   },
   {
     "id": "nara-01",
@@ -890,7 +910,9 @@
       "法隆寺",
       "ならまち"
     ],
-    "largeAreaCode": "kinki"
+    "largeAreaCode": "kinki",
+    "latitude": 34.6851,
+    "longitude": 135.8049
   },
   {
     "id": "nagasaki-01",
@@ -970,7 +992,9 @@
       "出島",
       "大浦天主堂"
     ],
-    "largeAreaCode": "kyushu"
+    "largeAreaCode": "kyushu",
+    "latitude": 32.7503,
+    "longitude": 129.8777
   },
   {
     "id": "izu-01",
@@ -1051,7 +1075,9 @@
       "浄蓮の滝",
       "下田"
     ],
-    "largeAreaCode": "tokai"
+    "largeAreaCode": "tokai",
+    "latitude": 34.9756,
+    "longitude": 139.1005
   },
   {
     "id": "takayama-01",
@@ -1133,7 +1159,9 @@
       "飛騨の里",
       "白川郷"
     ],
-    "largeAreaCode": "tokai"
+    "largeAreaCode": "tokai",
+    "latitude": 36.1461,
+    "longitude": 137.2522
   },
   {
     "id": "okinawa-01",
@@ -1214,7 +1242,9 @@
       "万座毛",
       "波の上ビーチ"
     ],
-    "largeAreaCode": "okinawa"
+    "largeAreaCode": "okinawa",
+    "latitude": 26.2124,
+    "longitude": 127.6809
   },
   {
     "id": "matsumoto-01",
@@ -1295,7 +1325,9 @@
       "旧開智学校",
       "美ヶ原高原"
     ],
-    "largeAreaCode": "koushinetsu"
+    "largeAreaCode": "koushinetsu",
+    "latitude": 36.2381,
+    "longitude": 137.9721
   },
   {
     "id": "beppu-01",
@@ -1377,7 +1409,9 @@
       "別府ロープウェイ",
       "関サバ"
     ],
-    "largeAreaCode": "kyushu"
+    "largeAreaCode": "kyushu",
+    "latitude": 33.2842,
+    "longitude": 131.4991
   },
   {
     "id": "kusatsu-01",
@@ -1456,7 +1490,9 @@
       "草津国際スキー場",
       "草津熱帯圏"
     ],
-    "largeAreaCode": "kanto"
+    "largeAreaCode": "kanto",
+    "latitude": 36.6188,
+    "longitude": 138.5962
   },
   {
     "id": "miyajima-01",
@@ -1537,7 +1573,9 @@
       "紅葉谷公園",
       "表参道商店街"
     ],
-    "largeAreaCode": "chugoku"
+    "largeAreaCode": "chugoku",
+    "latitude": 34.2959,
+    "longitude": 132.3192
   },
   {
     "id": "kawaguchiko-01",
@@ -1618,7 +1656,9 @@
       "富岳風穴",
       "河口湖美術館"
     ],
-    "largeAreaCode": "koushinetsu"
+    "largeAreaCode": "koushinetsu",
+    "latitude": 35.5116,
+    "longitude": 138.7544
   },
   {
     "id": "chichibu-01",
@@ -1699,7 +1739,9 @@
       "羊山公園",
       "宝登山"
     ],
-    "largeAreaCode": "kanto"
+    "largeAreaCode": "kanto",
+    "latitude": 35.9929,
+    "longitude": 139.0851
   },
   {
     "id": "nasu-01",
@@ -1779,7 +1821,9 @@
       "鹿の湯",
       "チーズガーデン"
     ],
-    "largeAreaCode": "kanto"
+    "largeAreaCode": "kanto",
+    "latitude": 37.1148,
+    "longitude": 139.9729
   },
   {
     "id": "enoshima-01",
@@ -1860,7 +1904,9 @@
       "サムエル・コッキング苑",
       "片瀬海岸"
     ],
-    "largeAreaCode": "kanto"
+    "largeAreaCode": "kanto",
+    "latitude": 35.2993,
+    "longitude": 139.4815
   },
   {
     "id": "kinosaki-01",
@@ -1940,7 +1986,9 @@
       "城崎文芸館",
       "玄武洞"
     ],
-    "largeAreaCode": "kinki"
+    "largeAreaCode": "kinki",
+    "latitude": 35.6228,
+    "longitude": 134.8029
   },
   {
     "id": "shirahama-01",
@@ -2021,7 +2069,9 @@
       "千畳敷",
       "円月島"
     ],
-    "largeAreaCode": "kinki"
+    "largeAreaCode": "kinki",
+    "latitude": 33.6806,
+    "longitude": 135.3503
   },
   {
     "id": "arima-01",
@@ -2101,7 +2151,9 @@
       "温泉寺",
       "太閤の湯"
     ],
-    "largeAreaCode": "kinki"
+    "largeAreaCode": "kinki",
+    "latitude": 34.7992,
+    "longitude": 135.2477
   },
   {
     "id": "otaru-01",
@@ -2182,7 +2234,9 @@
       "オルゴール堂",
       "天狗山"
     ],
-    "largeAreaCode": "hokkaido"
+    "largeAreaCode": "hokkaido",
+    "latitude": 43.1907,
+    "longitude": 140.9947
   },
   {
     "id": "kagoshima-01",
@@ -2264,7 +2318,9 @@
       "城山展望台",
       "指宿砂むし温泉"
     ],
-    "largeAreaCode": "kyushu"
+    "largeAreaCode": "kyushu",
+    "latitude": 31.5969,
+    "longitude": 130.5571
   },
   {
     "id": "matsuyama-01",
@@ -2345,7 +2401,9 @@
       "道後商店街",
       "しまなみ海道"
     ],
-    "largeAreaCode": "shikoku"
+    "largeAreaCode": "shikoku",
+    "latitude": 33.8416,
+    "longitude": 132.7657
   },
   {
     "id": "karuizawa-01",
@@ -2427,7 +2485,9 @@
       "アウトレットモール",
       "ハルニレテラス"
     ],
-    "largeAreaCode": "koushinetsu"
+    "largeAreaCode": "koushinetsu",
+    "latitude": 36.3469,
+    "longitude": 138.5956
   },
   {
     "id": "yokohama-01",
@@ -2509,7 +2569,9 @@
       "山下公園",
       "カップヌードルミュージアム"
     ],
-    "largeAreaCode": "kanto"
+    "largeAreaCode": "kanto",
+    "latitude": 35.4437,
+    "longitude": 139.638
   },
   {
     "id": "ise-01",
@@ -2590,7 +2652,9 @@
       "鳥羽水族館",
       "おはらい町"
     ],
-    "largeAreaCode": "tokai"
+    "largeAreaCode": "tokai",
+    "latitude": 34.4855,
+    "longitude": 136.7052
   },
   {
     "id": "hakodate-01",
@@ -2672,7 +2736,9 @@
       "元町",
       "赤レンガ倉庫群"
     ],
-    "largeAreaCode": "hokkaido"
+    "largeAreaCode": "hokkaido",
+    "latitude": 41.7686,
+    "longitude": 140.7291
   },
   {
     "id": "kumamoto-01",
@@ -2754,7 +2820,9 @@
       "大観峰",
       "草千里ヶ浜"
     ],
-    "largeAreaCode": "kyushu"
+    "largeAreaCode": "kyushu",
+    "latitude": 32.8031,
+    "longitude": 130.7079
   },
   {
     "id": "tottori-01",
@@ -2835,7 +2903,9 @@
       "大山",
       "鳥取城跡"
     ],
-    "largeAreaCode": "chugoku"
+    "largeAreaCode": "chugoku",
+    "latitude": 35.5014,
+    "longitude": 134.2349
   },
   {
     "id": "noboribetsu-01",
@@ -2915,6 +2985,8 @@
       "洞爺湖",
       "大湯沼川天然足湯"
     ],
-    "largeAreaCode": "hokkaido"
+    "largeAreaCode": "hokkaido",
+    "latitude": 42.4528,
+    "longitude": 141.1081
   }
 ]

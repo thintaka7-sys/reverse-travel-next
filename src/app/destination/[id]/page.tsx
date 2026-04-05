@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import destinationsJson from '@/data/destinations.json';
 import { Destination } from '@/types';
 import { SCHEDULES } from '@/data/constants';
+import YahooCredit from '@/components/YahooCredit';
 
 function formatYen(n: number) { return n.toLocaleString("ja-JP") + "円"; }
 
@@ -116,6 +117,7 @@ export default function DestinationDetail({
           </div>
         </div>
       </div>
+      <YahooCredit />
     </div>
   );
 }
