@@ -2,44 +2,6 @@ import { Destination } from '../types';
 import { FOOD_COST } from '../data/constants';
 import destinationsJson from '../data/destinations.json';
 
-export async function fetchLodgingPrice(params: {
-  checkinDate: string;
-  checkoutDate: string;
-  adultNum: number;
-  largeAreaCode: string;
-  staticBudget: number;
-  staticStandard: number;
-}): Promise<{
-  budget: number;
-  standard: number;
-  hotelNames?: string[];
-  isEstimated: boolean;
-}> {
-  try {
-    const query = new URLSearchParams({
-      checkinDate: params.checkinDate,
-      checkoutDate: params.checkoutDate,
-      adultNum: String(params.adultNum),
-      largeAreaCode: params.largeAreaCode,
-    });
-    const res = await fetch(`/api/lodging?${query.toString()}`);
-    if (!res.ok) throw new Error('API error');
-    const data = await res.json();
-    return {
-      budget: data.minPrice ?? params.staticBudget,
-      standard: data.standardPrice ?? params.staticStandard,
-      hotelNames: data.hotelNames,
-      isEstimated: false,
-    };
-  } catch {
-    return {
-      budget: params.staticBudget,
-      standard: params.staticStandard,
-      isEstimated: true,
-    };
-  }
-}
-
 const destinations = destinationsJson as Destination[];
 
 export function mapToNearestOrigin(inputStr: string | null | undefined): { origin: string; isEstimated: boolean } {
