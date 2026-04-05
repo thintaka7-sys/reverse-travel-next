@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import Link from 'next/link';
-import { searchDests } from '@/lib/search';
+import { searchDests, LodgingGrade } from '@/lib/search';
 import { SCHEDULES } from '@/data/constants';
 import BudgetSlider from '@/components/BudgetSlider';
 import DestinationCard from '@/components/DestinationCard';
@@ -23,17 +23,20 @@ export default function ResultsPage({
   const sceneFilter = searchParams.sf ? searchParams.sf.split(",") : [];
   const sort = searchParams.sort || "cost";
   const pp = searchParams.pp === "1";
+  const lodgingGrade = (searchParams.lg as LodgingGrade) || 'budget';
 
   const nights = SCHEDULES[si]?.nights || 0;
 
   const results = searchDests({
-    origin, adults, children, seniors, budget, nights, themes, transportFilter, sceneFilter, sort
+    origin, adults, children, seniors, budget, nights, themes, transportFilter, sceneFilter, sort, lodgingGrade
   });
+
+  const gradeLabel = lodgingGrade === 'premium' ? 'プレミアム' : lodgingGrade === 'standard' ? 'スタンダード' : 'エコノミー';
 
   return (
     <div className="animate-fu pb-6">
       <div className="flex justify-between items-center my-3 flex-wrap gap-2">
-        <Link 
+        <Link
           href="/"
           className="bg-transparent text-brown-700 border-[1.5px] border-brown-700 px-4 py-2 rounded-xl text-[13px] font-bold hover:bg-brown-700 hover:text-white transition-colors active:scale-95"
         >
@@ -51,11 +54,14 @@ export default function ResultsPage({
         <BudgetSlider initialBudget={budget} />
       </Suspense>
 
-      <div className="flex justify-between items-center mb-4 flex-wrap gap-2 md:flex-row flex-col md:items-center items-stretch">
-        <div className="text-[15px] font-bold text-brown-900 md:text-left text-center">{results.length} 件の旅行先候補</div>
-        
+      <div className="flex justify-between items-start mb-4 flex-wrap gap-2 md:flex-row flex-col">
+        <div className="text-[15px] font-bold text-brown-900 md:text-left text-center pt-1">
+          {results.length} 件の旅行先候補
+          <span className="ml-2 text-[11px] font-normal text-brown-500">（宿泊：{gradeLabel}）</span>
+        </div>
+
         <Suspense fallback={<div />}>
-          <ResultsClientToolbar currentSort={sort} currentPp={pp} />
+          <ResultsClientToolbar currentSort={sort} currentPp={pp} currentGrade={lodgingGrade} />
         </Suspense>
       </div>
 
@@ -72,6 +78,14 @@ export default function ResultsPage({
           ))}
         </div>
       )}
+
+      {/* 免責表示 */}
+      <p className="text-center text-[11px] text-brown-400 mt-6 px-4">
+        ※ 宿泊費は目安です。実際の料金は
+        <a href="https://www.jalan.net/" target="_blank" rel="noopener noreferrer" className="underline hover:text-brown-600">じゃらん</a>・
+        <a href="https://travel.rakuten.co.jp/" target="_blank" rel="noopener noreferrer" className="underline hover:text-brown-600">楽天トラベル</a>
+        でご確認ください。
+      </p>
     </div>
   );
 }

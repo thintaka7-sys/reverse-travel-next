@@ -23,6 +23,7 @@ export interface Destination {
   lodging: {
     budget: number;
     standard: number;
+    premium: number;
   };
   tags: {
     family?: boolean;

@@ -49,7 +49,8 @@
     },
     "lodging": {
       "budget": 5000,
-      "standard": 10000
+      "standard": 10000,
+      "premium": 20000
     },
     "tags": {
       "family": true
@@ -129,7 +130,8 @@
     },
     "lodging": {
       "budget": 8000,
-      "standard": 15000
+      "standard": 15000,
+      "premium": 30000
     },
     "tags": {
       "family": true
@@ -208,7 +210,8 @@
     },
     "lodging": {
       "budget": 6000,
-      "standard": 12000
+      "standard": 12000,
+      "premium": 24000
     },
     "tags": {
       "family": true
@@ -289,7 +292,8 @@
     },
     "lodging": {
       "budget": 6000,
-      "standard": 11000
+      "standard": 11000,
+      "premium": 22000
     },
     "tags": {
       "family": true
@@ -368,7 +372,8 @@
     },
     "lodging": {
       "budget": 7000,
-      "standard": 14000
+      "standard": 14000,
+      "premium": 28000
     },
     "tags": {
       "family": true
@@ -449,7 +454,8 @@
     },
     "lodging": {
       "budget": 5500,
-      "standard": 11000
+      "standard": 11000,
+      "premium": 22000
     },
     "tags": {
       "family": true
@@ -529,7 +535,8 @@
     },
     "lodging": {
       "budget": 5000,
-      "standard": 9000
+      "standard": 9000,
+      "premium": 18000
     },
     "tags": {
       "family": true
@@ -609,7 +616,8 @@
     },
     "lodging": {
       "budget": 4500,
-      "standard": 9000
+      "standard": 9000,
+      "premium": 18000
     },
     "tags": {
       "family": true
@@ -689,7 +697,8 @@
     },
     "lodging": {
       "budget": 4500,
-      "standard": 9000
+      "standard": 9000,
+      "premium": 18000
     },
     "tags": {
       "family": true
@@ -770,7 +779,8 @@
     },
     "lodging": {
       "budget": 4500,
-      "standard": 8500
+      "standard": 8500,
+      "premium": 17000
     },
     "tags": {
       "family": true
@@ -850,7 +860,8 @@
     },
     "lodging": {
       "budget": 5000,
-      "standard": 9000
+      "standard": 9000,
+      "premium": 18000
     },
     "tags": {
       "family": true
@@ -929,7 +940,8 @@
     },
     "lodging": {
       "budget": 5000,
-      "standard": 9500
+      "standard": 9500,
+      "premium": 19000
     },
     "tags": {
       "family": true
@@ -1009,7 +1021,8 @@
     },
     "lodging": {
       "budget": 7000,
-      "standard": 14000
+      "standard": 14000,
+      "premium": 28000
     },
     "tags": {
       "family": true
@@ -1090,7 +1103,8 @@
     },
     "lodging": {
       "budget": 6000,
-      "standard": 12000
+      "standard": 12000,
+      "premium": 24000
     },
     "tags": {
       "family": true
@@ -1171,7 +1185,8 @@
     },
     "lodging": {
       "budget": 5000,
-      "standard": 10000
+      "standard": 10000,
+      "premium": 20000
     },
     "tags": {
       "family": true
@@ -1250,7 +1265,8 @@
     },
     "lodging": {
       "budget": 5000,
-      "standard": 10000
+      "standard": 10000,
+      "premium": 20000
     },
     "tags": {
       "family": true
@@ -1331,7 +1347,8 @@
     },
     "lodging": {
       "budget": 5000,
-      "standard": 10000
+      "standard": 10000,
+      "premium": 20000
     },
     "tags": {
       "family": true
@@ -1409,7 +1426,8 @@
     },
     "lodging": {
       "budget": 8000,
-      "standard": 16000
+      "standard": 16000,
+      "premium": 32000
     },
     "tags": {
       "family": true
@@ -1489,7 +1507,8 @@
     },
     "lodging": {
       "budget": 8000,
-      "standard": 15000
+      "standard": 15000,
+      "premium": 30000
     },
     "tags": {
       "family": true
@@ -1569,7 +1588,8 @@
     },
     "lodging": {
       "budget": 6000,
-      "standard": 12000
+      "standard": 12000,
+      "premium": 24000
     },
     "tags": {
       "family": true
@@ -1649,7 +1669,8 @@
     },
     "lodging": {
       "budget": 5000,
-      "standard": 9000
+      "standard": 9000,
+      "premium": 18000
     },
     "tags": {
       "family": true
@@ -1729,7 +1750,8 @@
     },
     "lodging": {
       "budget": 6000,
-      "standard": 12000
+      "standard": 12000,
+      "premium": 24000
     },
     "tags": {
       "family": true
@@ -1808,7 +1830,8 @@
     },
     "lodging": {
       "budget": 7000,
-      "standard": 13000
+      "standard": 13000,
+      "premium": 26000
     },
     "tags": {
       "family": true
@@ -1887,7 +1910,8 @@
     },
     "lodging": {
       "budget": 8000,
-      "standard": 18000
+      "standard": 18000,
+      "premium": 36000
     },
     "tags": {
       "family": true
@@ -1968,7 +1992,8 @@
     },
     "lodging": {
       "budget": 6000,
-      "standard": 13000
+      "standard": 13000,
+      "premium": 26000
     },
     "tags": {
       "family": true
@@ -2046,7 +2071,8 @@
     },
     "lodging": {
       "budget": 9000,
-      "standard": 18000
+      "standard": 18000,
+      "premium": 36000
     },
     "tags": {
       "family": true
@@ -2126,7 +2152,8 @@
     },
     "lodging": {
       "budget": 5000,
-      "standard": 10000
+      "standard": 10000,
+      "premium": 20000
     },
     "tags": {
       "family": true
@@ -2207,7 +2234,8 @@
     },
     "lodging": {
       "budget": 4500,
-      "standard": 9000
+      "standard": 9000,
+      "premium": 18000
     },
     "tags": {
       "family": true
@@ -2287,7 +2315,8 @@
     },
     "lodging": {
       "budget": 5000,
-      "standard": 10000
+      "standard": 10000,
+      "premium": 20000
     },
     "tags": {
       "family": true
@@ -2368,7 +2397,8 @@
     },
     "lodging": {
       "budget": 7000,
-      "standard": 15000
+      "standard": 15000,
+      "premium": 30000
     },
     "tags": {
       "family": true
@@ -2449,7 +2479,8 @@
     },
     "lodging": {
       "budget": 6000,
-      "standard": 12000
+      "standard": 12000,
+      "premium": 24000
     },
     "tags": {
       "family": true
@@ -2529,7 +2560,8 @@
     },
     "lodging": {
       "budget": 5500,
-      "standard": 11000
+      "standard": 11000,
+      "premium": 22000
     },
     "tags": {
       "family": true
@@ -2610,7 +2642,8 @@
     },
     "lodging": {
       "budget": 5000,
-      "standard": 10000
+      "standard": 10000,
+      "premium": 20000
     },
     "tags": {
       "family": true
@@ -2691,7 +2724,8 @@
     },
     "lodging": {
       "budget": 4500,
-      "standard": 9000
+      "standard": 9000,
+      "premium": 18000
     },
     "tags": {
       "family": true
@@ -2771,7 +2805,8 @@
     },
     "lodging": {
       "budget": 4500,
-      "standard": 8500
+      "standard": 8500,
+      "premium": 17000
     },
     "tags": {
       "family": true
@@ -2850,7 +2885,8 @@
     },
     "lodging": {
       "budget": 7000,
-      "standard": 15000
+      "standard": 15000,
+      "premium": 30000
     },
     "tags": {
       "family": true

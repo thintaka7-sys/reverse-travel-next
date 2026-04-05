@@ -23,18 +23,21 @@ export function mapToNearestOrigin(inputStr: string | null | undefined): { origi
   return { origin: "東京", isEstimated: true };
 }
 
-export function calcCost(dest: Destination, originStr: string, nights: number, adults: number, children: number, seniors: number) {
+export type LodgingGrade = 'budget' | 'standard' | 'premium';
+
+export function calcCost(dest: Destination, originStr: string, nights: number, adults: number, children: number, seniors: number, lodgingGrade: LodgingGrade = 'budget') {
   const { origin, isEstimated } = mapToNearestOrigin(originStr);
-  const t = dest.transport[origin]; 
+  const t = dest.transport[origin];
   if (!t) return null;
-  const p = adults + children + seniors; 
+  const p = adults + children + seniors;
   if (!p) return null;
-  
+
   const baseCost = isEstimated ? t.cost + 1500 : t.cost;
   const baseMins = isEstimated ? t.minutes + 40 : t.minutes;
-  
+
   const tr = baseCost * 2 * p;
-  const lo = nights > 0 ? dest.lodging.budget * nights * p : 0;
+  const lodgingRate = dest.lodging[lodgingGrade];
+  const lo = nights > 0 ? lodgingRate * nights * p : 0;
   const fo = (FOOD_COST[nights] || 3000) * p;
   
   return { 
@@ -60,12 +63,13 @@ export function searchDests(params: {
   transportFilter: string[];
   sceneFilter: string[];
   sort: string;
+  lodgingGrade?: LodgingGrade;
 }) {
-  const { origin, adults, children, seniors, budget, nights, themes, transportFilter, sceneFilter, sort } = params;
+  const { origin, adults, children, seniors, budget, nights, themes, transportFilter, sceneFilter, sort, lodgingGrade = 'budget' } = params;
   if (adults + children + seniors === 0 || !origin) return [];
-  
+
   const results = destinations.map(d => {
-    const c = calcCost(d, origin, nights, adults, children, seniors); 
+    const c = calcCost(d, origin, nights, adults, children, seniors, lodgingGrade); 
     if (!c || c.total > budget) return null;
     
     if (transportFilter.length > 0) { 
