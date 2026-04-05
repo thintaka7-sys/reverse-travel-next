@@ -1,8 +1,9 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import { ORIGINS, THEMES, SCENES, SCHEDULES, TRANSPORT_OPTIONS } from '../data/constants';
+import { searchDests } from '../lib/search';
 
 function formatYen(n: number) { return n.toLocaleString("ja-JP") + "円"; }
 
@@ -21,6 +22,15 @@ export default function SearchForm() {
   const [isLocating, setIsLocating] = useState(false);
 
   const tp = ad + ch + sr;
+
+  const resultCount = useMemo(() => {
+    if (tp === 0) return 0;
+    return searchDests({
+      origin, adults: ad, children: ch, seniors: sr, budget,
+      nights: SCHEDULES[si]?.nights || 0,
+      themes: th, transportFilter: tf, sceneFilter: sf, sort: 'cost',
+    }).length;
+  }, [origin, ad, ch, sr, budget, si, th, tf, sf, tp]);
 
   const tog = (p: string[], s: React.Dispatch<React.SetStateAction<string[]>>, v: string) => 
     s(p.includes(v) ? p.filter(x => x !== v) : [...p, v]);
@@ -51,7 +61,7 @@ export default function SearchForm() {
           setIsLocating(false);
         }
       },
-      (error) => {
+      () => {
         alert("現在地の取得に失敗しました。設定を確認してください。");
         setIsLocating(false);
       },
@@ -203,6 +213,13 @@ export default function SearchForm() {
       </div>
 
       <div className="text-center mt-6">
+        {tp > 0 && (
+          <p className="text-[13px] text-brown-600 font-bold mb-3">
+            現在の条件で
+            <span className="text-brown-800 text-[18px] mx-1.5">{resultCount}</span>
+            件の旅行先が見つかります
+          </p>
+        )}
         <button 
           className={`w-full max-w-[360px] py-4 px-8 text-[17px] font-bold rounded-2xl transition-all duration-300 shadow-lg ${
             tp === 0 
