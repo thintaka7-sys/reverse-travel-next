@@ -17,7 +17,7 @@
     "season": "春の桜と秋の紅葉が特に人気。夏は祇園祭、冬は雪の金閣寺が幻想的。",
     "transport": {
       "東京": {
-        "cost": 6800,
+        "cost": 13500,
         "minutes": 135,
         "method": "新幹線"
       },
@@ -27,12 +27,12 @@
         "method": "在来線"
       },
       "名古屋": {
-        "cost": 3500,
+        "cost": 3600,
         "minutes": 35,
         "method": "新幹線"
       },
       "福岡": {
-        "cost": 8000,
+        "cost": 16500,
         "minutes": 170,
         "method": "新幹線"
       },
@@ -42,7 +42,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 11000,
+        "cost": 18000,
         "minutes": 240,
         "method": "新幹線"
       }
@@ -105,17 +105,17 @@
         "method": "在来線"
       },
       "大阪": {
-        "cost": 6500,
+        "cost": 10000,
         "minutes": 180,
         "method": "新幹線"
       },
       "名古屋": {
-        "cost": 5000,
+        "cost": 9000,
         "minutes": 120,
         "method": "新幹線"
       },
       "福岡": {
-        "cost": 12000,
+        "cost": 21000,
         "minutes": 300,
         "method": "新幹線"
       },
@@ -125,7 +125,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 6000,
+        "cost": 12000,
         "minutes": 180,
         "method": "新幹線"
       }
@@ -182,22 +182,22 @@
     "season": "秋の紅葉は圧巻。いろは坂のドライブは10月中旬が見頃。",
     "transport": {
       "東京": {
-        "cost": 1400,
+        "cost": 2700,
         "minutes": 120,
         "method": "在来線"
       },
       "大阪": {
-        "cost": 7500,
+        "cost": 14000,
         "minutes": 240,
         "method": "新幹線"
       },
       "名古屋": {
-        "cost": 6000,
+        "cost": 12000,
         "minutes": 200,
         "method": "新幹線"
       },
       "福岡": {
-        "cost": 15000,
+        "cost": 25000,
         "minutes": 360,
         "method": "新幹線"
       },
@@ -207,7 +207,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 3500,
+        "cost": 7000,
         "minutes": 120,
         "method": "新幹線"
       }
@@ -271,17 +271,17 @@
         "method": "在来線"
       },
       "大阪": {
-        "cost": 6800,
+        "cost": 11500,
         "minutes": 180,
         "method": "新幹線"
       },
       "名古屋": {
-        "cost": 5500,
+        "cost": 9000,
         "minutes": 140,
         "method": "新幹線"
       },
       "福岡": {
-        "cost": 12000,
+        "cost": 21000,
         "minutes": 320,
         "method": "新幹線"
       },
@@ -291,7 +291,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 5500,
+        "cost": 11000,
         "minutes": 180,
         "method": "新幹線"
       }
@@ -353,17 +353,17 @@
         "method": "在来線"
       },
       "大阪": {
-        "cost": 5500,
+        "cost": 9000,
         "minutes": 150,
         "method": "新幹線"
       },
       "名古屋": {
-        "cost": 3800,
+        "cost": 6500,
         "minutes": 90,
         "method": "新幹線"
       },
       "福岡": {
-        "cost": 11000,
+        "cost": 19000,
         "minutes": 280,
         "method": "新幹線"
       },
@@ -373,7 +373,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 5500,
+        "cost": 11000,
         "minutes": 200,
         "method": "新幹線"
       }
@@ -432,22 +432,22 @@
     "season": "冬の蟹が絶品。雪吊りの兼六園も風情がある。",
     "transport": {
       "東京": {
-        "cost": 7100,
+        "cost": 14000,
         "minutes": 150,
         "method": "新幹線"
       },
       "大阪": {
-        "cost": 4000,
+        "cost": 5500,
         "minutes": 160,
         "method": "在来線"
       },
       "名古屋": {
-        "cost": 3500,
+        "cost": 5500,
         "minutes": 180,
         "method": "在来線"
       },
       "福岡": {
-        "cost": 14000,
+        "cost": 23000,
         "minutes": 300,
         "method": "新幹線"
       },
@@ -457,7 +457,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 10000,
+        "cost": 20000,
         "minutes": 240,
         "method": "新幹線"
       }
@@ -515,22 +515,22 @@
     "season": "春は平和公園の桜が美しい。秋は宮島の紅葉が見事。",
     "transport": {
       "東京": {
-        "cost": 9500,
+        "cost": 17500,
         "minutes": 240,
         "method": "新幹線"
       },
       "大阪": {
-        "cost": 5000,
+        "cost": 9500,
         "minutes": 90,
         "method": "新幹線"
       },
       "名古屋": {
-        "cost": 6500,
+        "cost": 11500,
         "minutes": 120,
         "method": "新幹線"
       },
       "福岡": {
-        "cost": 4500,
+        "cost": 7000,
         "minutes": 60,
         "method": "新幹線"
       },
@@ -540,7 +540,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 13000,
+        "cost": 22000,
         "minutes": 300,
         "method": "新幹線"
       }
@@ -598,17 +598,17 @@
     "season": "5月の博多どんたくや7月の博多祇園山笠は必見。",
     "transport": {
       "東京": {
-        "cost": 12000,
+        "cost": 21000,
         "minutes": 300,
         "method": "新幹線"
       },
       "大阪": {
-        "cost": 7500,
+        "cost": 12000,
         "minutes": 150,
         "method": "新幹線"
       },
       "名古屋": {
-        "cost": 9000,
+        "cost": 15000,
         "minutes": 200,
         "method": "新幹線"
       },
@@ -623,7 +623,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 16000,
+        "cost": 27000,
         "minutes": 360,
         "method": "新幹線"
       }
@@ -765,22 +765,22 @@
     "season": "8月の七夕まつりは日本最大級。秋の松島も絶景。",
     "transport": {
       "東京": {
-        "cost": 5500,
+        "cost": 11000,
         "minutes": 100,
         "method": "新幹線"
       },
       "大阪": {
-        "cost": 10000,
+        "cost": 16000,
         "minutes": 240,
         "method": "新幹線"
       },
       "名古屋": {
-        "cost": 8500,
+        "cost": 15000,
         "minutes": 200,
         "method": "新幹線"
       },
       "福岡": {
-        "cost": 16000,
+        "cost": 27000,
         "minutes": 360,
         "method": "新幹線"
       },
@@ -848,7 +848,7 @@
     "season": "春は桜、秋は紅葉。鹿と一年中触れ合える。",
     "transport": {
       "東京": {
-        "cost": 6500,
+        "cost": 13500,
         "minutes": 170,
         "method": "新幹線"
       },
@@ -863,7 +863,7 @@
         "method": "在来線"
       },
       "福岡": {
-        "cost": 8500,
+        "cost": 16000,
         "minutes": 200,
         "method": "新幹線"
       },
@@ -873,7 +873,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 11000,
+        "cost": 18000,
         "minutes": 260,
         "method": "新幹線"
       }
@@ -1018,17 +1018,17 @@
         "method": "在来線"
       },
       "大阪": {
-        "cost": 6000,
+        "cost": 10000,
         "minutes": 180,
         "method": "新幹線"
       },
       "名古屋": {
-        "cost": 4000,
+        "cost": 6500,
         "minutes": 120,
         "method": "新幹線"
       },
       "福岡": {
-        "cost": 12000,
+        "cost": 19000,
         "minutes": 300,
         "method": "新幹線"
       },
@@ -1038,7 +1038,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 6500,
+        "cost": 12000,
         "minutes": 220,
         "method": "新幹線"
       }
@@ -1097,22 +1097,22 @@
     "season": "春と秋の高山祭は日本三大美祭の一つ。",
     "transport": {
       "東京": {
-        "cost": 7000,
+        "cost": 12000,
         "minutes": 180,
         "method": "新幹線+在来線"
       },
       "大阪": {
-        "cost": 4500,
+        "cost": 8500,
         "minutes": 200,
         "method": "在来線"
       },
       "名古屋": {
-        "cost": 3200,
+        "cost": 4200,
         "minutes": 140,
         "method": "在来線"
       },
       "福岡": {
-        "cost": 14000,
+        "cost": 20000,
         "minutes": 340,
         "method": "新幹線"
       },
@@ -1122,7 +1122,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 10000,
+        "cost": 18000,
         "minutes": 280,
         "method": "新幹線"
       }
@@ -1263,22 +1263,22 @@
     "season": "夏の上高地は避暑に最適。秋の紅葉と北アルプスも美しい。",
     "transport": {
       "東京": {
-        "cost": 3500,
+        "cost": 5000,
         "minutes": 160,
         "method": "在来線"
       },
       "大阪": {
-        "cost": 5500,
+        "cost": 6500,
         "minutes": 200,
         "method": "在来線"
       },
       "名古屋": {
-        "cost": 3000,
+        "cost": 4500,
         "minutes": 120,
         "method": "在来線"
       },
       "福岡": {
-        "cost": 14000,
+        "cost": 20000,
         "minutes": 340,
         "method": "新幹線"
       },
@@ -1288,7 +1288,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 7000,
+        "cost": 12000,
         "minutes": 240,
         "method": "新幹線"
       }
@@ -1428,22 +1428,22 @@
     "season": "冬の雪見温泉は最高の贅沢。湯畑のライトアップも幻想的。",
     "transport": {
       "東京": {
-        "cost": 2500,
+        "cost": 4500,
         "minutes": 180,
         "method": "在来線+バス"
       },
       "大阪": {
-        "cost": 8000,
+        "cost": 14000,
         "minutes": 300,
         "method": "新幹線"
       },
       "名古屋": {
-        "cost": 6000,
+        "cost": 11000,
         "minutes": 240,
         "method": "新幹線"
       },
       "福岡": {
-        "cost": 15000,
+        "cost": 22000,
         "minutes": 400,
         "method": "新幹線"
       },
@@ -1453,7 +1453,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 5000,
+        "cost": 8000,
         "minutes": 200,
         "method": "新幹線"
       }
@@ -1511,22 +1511,22 @@
     "season": "秋の紅葉が特に美しい。干潮時は大鳥居まで歩ける。",
     "transport": {
       "東京": {
-        "cost": 10000,
+        "cost": 18000,
         "minutes": 260,
         "method": "新幹線"
       },
       "大阪": {
-        "cost": 5500,
+        "cost": 9000,
         "minutes": 110,
         "method": "新幹線"
       },
       "名古屋": {
-        "cost": 7000,
+        "cost": 12000,
         "minutes": 140,
         "method": "新幹線"
       },
       "福岡": {
-        "cost": 5000,
+        "cost": 7000,
         "minutes": 80,
         "method": "新幹線"
       },
@@ -1536,7 +1536,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 14000,
+        "cost": 23000,
         "minutes": 320,
         "method": "新幹線"
       }
@@ -1594,22 +1594,22 @@
     "season": "春の桜と富士山の共演が絶景。冬は富士山がくっきり。",
     "transport": {
       "東京": {
-        "cost": 1800,
+        "cost": 2600,
         "minutes": 120,
         "method": "在来線+バス"
       },
       "大阪": {
-        "cost": 6000,
+        "cost": 10000,
         "minutes": 200,
         "method": "新幹線"
       },
       "名古屋": {
-        "cost": 4500,
+        "cost": 7000,
         "minutes": 160,
         "method": "新幹線"
       },
       "福岡": {
-        "cost": 13000,
+        "cost": 22000,
         "minutes": 320,
         "method": "新幹線"
       },
@@ -1619,7 +1619,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 6500,
+        "cost": 12000,
         "minutes": 220,
         "method": "新幹線"
       }
@@ -1677,22 +1677,22 @@
     "season": "春は芝桜の丘が圧巻。12月の夜祭は日本三大曳山祭の一つ。",
     "transport": {
       "東京": {
-        "cost": 780,
+        "cost": 790,
         "minutes": 80,
         "method": "在来線"
       },
       "大阪": {
-        "cost": 7000,
+        "cost": 12000,
         "minutes": 220,
         "method": "新幹線"
       },
       "名古屋": {
-        "cost": 5500,
+        "cost": 9500,
         "minutes": 180,
         "method": "新幹線"
       },
       "福岡": {
-        "cost": 13000,
+        "cost": 22000,
         "minutes": 340,
         "method": "新幹線"
       },
@@ -1702,7 +1702,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 5500,
+        "cost": 11000,
         "minutes": 200,
         "method": "新幹線"
       }
@@ -1760,22 +1760,22 @@
     "season": "夏は避暑地として人気。秋の那須岳の紅葉は見事。",
     "transport": {
       "東京": {
-        "cost": 2700,
+        "cost": 5200,
         "minutes": 90,
         "method": "新幹線"
       },
       "大阪": {
-        "cost": 8000,
+        "cost": 14000,
         "minutes": 240,
         "method": "新幹線"
       },
       "名古屋": {
-        "cost": 6500,
+        "cost": 12000,
         "minutes": 200,
         "method": "新幹線"
       },
       "福岡": {
-        "cost": 15000,
+        "cost": 23000,
         "minutes": 360,
         "method": "新幹線"
       },
@@ -1785,7 +1785,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 3000,
+        "cost": 5000,
         "minutes": 60,
         "method": "新幹線"
       }
@@ -1842,22 +1842,22 @@
     "season": "夏は海水浴客で賑わう。冬のイルミネーションも人気。",
     "transport": {
       "東京": {
-        "cost": 650,
+        "cost": 1300,
         "minutes": 65,
         "method": "在来線"
       },
       "大阪": {
-        "cost": 6800,
+        "cost": 10000,
         "minutes": 190,
         "method": "新幹線"
       },
       "名古屋": {
-        "cost": 5500,
+        "cost": 9000,
         "minutes": 150,
         "method": "新幹線"
       },
       "福岡": {
-        "cost": 12500,
+        "cost": 21000,
         "minutes": 330,
         "method": "新幹線"
       },
@@ -1867,7 +1867,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 5500,
+        "cost": 11000,
         "minutes": 190,
         "method": "新幹線"
       }
@@ -1924,22 +1924,22 @@
     "season": "冬の松葉蟹シーズン（11〜3月）が最高。",
     "transport": {
       "東京": {
-        "cost": 8500,
+        "cost": 15000,
         "minutes": 210,
         "method": "新幹線"
       },
       "大阪": {
-        "cost": 2600,
+        "cost": 5000,
         "minutes": 150,
         "method": "在来線"
       },
       "名古屋": {
-        "cost": 5000,
+        "cost": 8000,
         "minutes": 180,
         "method": "在来線"
       },
       "福岡": {
-        "cost": 10000,
+        "cost": 18000,
         "minutes": 240,
         "method": "新幹線"
       },
@@ -1949,7 +1949,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 13000,
+        "cost": 22000,
         "minutes": 300,
         "method": "新幹線"
       }
@@ -2008,22 +2008,22 @@
     "season": "夏はビーチが最高。冬も温泉とクエ料理で楽しめる。",
     "transport": {
       "東京": {
-        "cost": 8000,
+        "cost": 15000,
         "minutes": 180,
         "method": "飛行機"
       },
       "大阪": {
-        "cost": 2500,
+        "cost": 4000,
         "minutes": 140,
         "method": "在来線"
       },
       "名古屋": {
-        "cost": 4000,
+        "cost": 6000,
         "minutes": 180,
         "method": "在来線"
       },
       "福岡": {
-        "cost": 12000,
+        "cost": 18000,
         "minutes": 280,
         "method": "新幹線"
       },
@@ -2089,7 +2089,7 @@
     "season": "秋の紅葉と温泉の組み合わせが最高。",
     "transport": {
       "東京": {
-        "cost": 7000,
+        "cost": 13500,
         "minutes": 180,
         "method": "新幹線"
       },
@@ -2099,12 +2099,12 @@
         "method": "在来線"
       },
       "名古屋": {
-        "cost": 4000,
+        "cost": 7500,
         "minutes": 100,
         "method": "新幹線"
       },
       "福岡": {
-        "cost": 8500,
+        "cost": 12000,
         "minutes": 180,
         "method": "新幹線"
       },
@@ -2114,7 +2114,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 11500,
+        "cost": 18000,
         "minutes": 260,
         "method": "新幹線"
       }
@@ -2271,7 +2271,7 @@
         "method": "飛行機"
       },
       "福岡": {
-        "cost": 5000,
+        "cost": 6500,
         "minutes": 80,
         "method": "新幹線"
       },
@@ -2423,22 +2423,22 @@
     "season": "夏は避暑に最適。秋の紅葉、冬はスキーも楽しめる。",
     "transport": {
       "東京": {
-        "cost": 2800,
+        "cost": 5500,
         "minutes": 70,
         "method": "新幹線"
       },
       "大阪": {
-        "cost": 7000,
+        "cost": 12000,
         "minutes": 200,
         "method": "新幹線"
       },
       "名古屋": {
-        "cost": 5500,
+        "cost": 10000,
         "minutes": 170,
         "method": "新幹線"
       },
       "福岡": {
-        "cost": 14000,
+        "cost": 22000,
         "minutes": 340,
         "method": "新幹線"
       },
@@ -2448,7 +2448,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 5000,
+        "cost": 9000,
         "minutes": 150,
         "method": "新幹線"
       }
@@ -2512,17 +2512,17 @@
         "method": "在来線"
       },
       "大阪": {
-        "cost": 6500,
+        "cost": 11500,
         "minutes": 160,
         "method": "新幹線"
       },
       "名古屋": {
-        "cost": 5200,
+        "cost": 8500,
         "minutes": 120,
         "method": "新幹線"
       },
       "福岡": {
-        "cost": 12000,
+        "cost": 21000,
         "minutes": 300,
         "method": "新幹線"
       },
@@ -2532,7 +2532,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 5000,
+        "cost": 11000,
         "minutes": 120,
         "method": "新幹線"
       }
@@ -2590,22 +2590,22 @@
     "season": "1月の初詣は荘厳。春秋が快適。",
     "transport": {
       "東京": {
-        "cost": 6000,
+        "cost": 11000,
         "minutes": 180,
         "method": "新幹線"
       },
       "大阪": {
-        "cost": 2000,
+        "cost": 2800,
         "minutes": 100,
         "method": "在来線"
       },
       "名古屋": {
-        "cost": 1500,
+        "cost": 1650,
         "minutes": 80,
         "method": "在来線"
       },
       "福岡": {
-        "cost": 10000,
+        "cost": 16000,
         "minutes": 240,
         "method": "新幹線"
       },
@@ -2615,7 +2615,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 9000,
+        "cost": 16000,
         "minutes": 240,
         "method": "新幹線"
       }
@@ -2674,7 +2674,7 @@
     "season": "冬の夜景は空気が澄んで最高。クリスマスファンタジーも人気。",
     "transport": {
       "東京": {
-        "cost": 12000,
+        "cost": 23000,
         "minutes": 250,
         "method": "新幹線"
       },
@@ -2699,7 +2699,7 @@
         "method": "在来線"
       },
       "仙台": {
-        "cost": 6000,
+        "cost": 13000,
         "minutes": 150,
         "method": "新幹線"
       }
@@ -2763,17 +2763,17 @@
         "method": "飛行機"
       },
       "大阪": {
-        "cost": 10000,
+        "cost": 14500,
         "minutes": 180,
         "method": "新幹線"
       },
       "名古屋": {
-        "cost": 11000,
+        "cost": 18000,
         "minutes": 200,
         "method": "新幹線"
       },
       "福岡": {
-        "cost": 2500,
+        "cost": 3600,
         "minutes": 40,
         "method": "新幹線"
       },
@@ -2783,7 +2783,7 @@
         "method": "飛行機"
       },
       "仙台": {
-        "cost": 18000,
+        "cost": 25000,
         "minutes": 300,
         "method": "飛行機"
       }
@@ -2846,17 +2846,17 @@
         "method": "飛行機"
       },
       "大阪": {
-        "cost": 3000,
+        "cost": 5800,
         "minutes": 150,
         "method": "在来線"
       },
       "名古屋": {
-        "cost": 5000,
+        "cost": 8000,
         "minutes": 200,
         "method": "在来線"
       },
       "福岡": {
-        "cost": 9000,
+        "cost": 16000,
         "minutes": 240,
         "method": "新幹線"
       },

@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import destinationsJson from '@/data/destinations.json';
 import { Destination } from '@/types';
 import { SCHEDULES } from '@/data/constants';
+import { calcCost, LodgingGrade } from '@/lib/search';
 import YahooCredit from '@/components/YahooCredit';
 
 function formatYen(n: number) { return n.toLocaleString("ja-JP") + "円"; }
@@ -20,10 +21,13 @@ export default function DestinationDetail({
 
   const si = parseInt(searchParams.si || "1", 10);
   const nights = SCHEDULES[si]?.nights || 0;
-  
-  // Note: Cost computation logic was part of search, here we're just displaying the static info
-  // For standard details, we can show generic base transport info or we can compute it if origin is provided
-  // We'll show the generic destination data, similar to the original React version.
+  const origin = searchParams.origin || "東京";
+  const adults = parseInt(searchParams.adults || "2", 10);
+  const children = parseInt(searchParams.children || "0", 10);
+  const seniors = parseInt(searchParams.seniors || "0", 10);
+  const lodgingGrade = (searchParams.lg as LodgingGrade) || 'budget';
+
+  const cost = calcCost(d, origin, nights, adults, children, seniors, lodgingGrade);
 
   return (
     <div className="animate-fu pb-6">
@@ -101,14 +105,53 @@ export default function DestinationDetail({
             </div>
           </div>
 
+          {/* 費用内訳 */}
+          {cost && (
+            <div className="mb-6">
+              <h3 className="text-lg font-bold text-brown-900 border-b-2 border-brown-100 pb-2 mb-3 flex items-center gap-2">
+                <span>💴</span> 費用内訳
+                {cost.isEstimated && (
+                  <span className="text-[10px] bg-orange-50 text-orange-600 border border-orange-200 px-1.5 py-0.5 rounded font-bold">概算</span>
+                )}
+              </h3>
+              <div className="bg-brown-50 rounded-2xl border border-brown-100 overflow-hidden">
+                <table className="w-full text-[13px]">
+                  <tbody>
+                    <tr className="border-b border-brown-100">
+                      <td className="px-4 py-3 text-brown-600 font-medium">🚃 交通費（往復）</td>
+                      <td className="px-4 py-3 text-right font-bold text-brown-900">{formatYen(cost.transport)}</td>
+                    </tr>
+                    <tr className="border-b border-brown-100">
+                      <td className="px-4 py-3 text-brown-600 font-medium">🏨 宿泊費</td>
+                      <td className="px-4 py-3 text-right font-bold text-brown-900">
+                        {nights === 0 ? <span className="text-brown-400 font-medium">—（日帰りのため）</span> : formatYen(cost.lodging)}
+                      </td>
+                    </tr>
+                    <tr className="border-b border-brown-100">
+                      <td className="px-4 py-3 text-brown-600 font-medium">🍜 食費（目安）</td>
+                      <td className="px-4 py-3 text-right font-bold text-brown-900">{formatYen(cost.food)}</td>
+                    </tr>
+                    <tr className="bg-brown-100/50">
+                      <td className="px-4 py-3 font-bold text-brown-900">合計</td>
+                      <td className="px-4 py-3 text-right text-[16px] font-black text-brown-700">{formatYen(cost.total)}</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p className="text-[11px] text-brown-400 px-4 py-2 border-t border-brown-100">
+                  ※ 概算です。交通費は{cost.method}利用・往復、宿泊費は{nights}泊分（{adults + children + seniors}名合計）の目安です。
+                </p>
+              </div>
+            </div>
+          )}
+
           <div className="bg-gray-50 rounded-2xl p-4 flex justify-between items-center border border-gray-200">
             <div>
               <div className="text-[11px] font-bold text-gray-500 mb-0.5">参考宿泊費 (1泊1名)</div>
               <div className="text-lg font-black text-gray-700">{formatYen(d.lodging.budget)} <span className="text-sm font-medium">〜</span> {formatYen(d.lodging.standard)}</div>
             </div>
-            <a 
-              href={d.externalLinks.jalan} 
-              target="_blank" 
+            <a
+              href={d.externalLinks.jalan}
+              target="_blank"
               rel="noreferrer"
               className="bg-[#ff5a00] text-white px-5 py-2.5 rounded-xl text-[13px] font-bold shadow-md hover:bg-[#e04f00] active:scale-95 transition-all"
             >
