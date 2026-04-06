@@ -2,8 +2,31 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "逆算型旅行サイト - 旅さがし",
-  description: "予算と条件から行ける旅行先を逆算します",
+  title: '旅さがし | 予算から旅行先を逆算して探せるサービス',
+  description: '予算・人数・日程を入力するだけで、行ける旅行先を自動提案。じゃらん・楽天では「行き先を決めてから検索」だが、旅さがしは逆算で候補を出します。',
+  keywords: ['旅行', '予算', '旅行先探し', '日帰り旅行', '逆算', '旅行計画'],
+  openGraph: {
+    title: '旅さがし | 予算から旅行先を逆算',
+    description: '予算・人数・日程を入れるだけで行ける場所がわかる逆算型旅行サービス',
+    url: 'https://tabi-sagashi.netlify.app',
+    siteName: '旅さがし',
+    images: [
+      {
+        url: 'https://tabi-sagashi.netlify.app/ogp.png',
+        width: 1200,
+        height: 630,
+        alt: '旅さがし - 予算から旅行先を逆算',
+      }
+    ],
+    locale: 'ja_JP',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '旅さがし | 予算から旅行先を逆算',
+    description: '予算・人数・日程を入れるだけで行ける場所がわかる逆算型旅行サービス',
+    images: ['https://tabi-sagashi.netlify.app/ogp.png'],
+  },
 };
 
 export default function RootLayout({

@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import { Metadata } from 'next';
 import destinationsJson from '@/data/destinations.json';
 import { Destination } from '@/types';
 import { SCHEDULES } from '@/data/constants';
@@ -8,6 +9,38 @@ import { calcCost, LodgingGrade } from '@/lib/search';
 import YahooCredit from '@/components/YahooCredit';
 
 function formatYen(n: number) { return n.toLocaleString("ja-JP") + "円"; }
+
+export async function generateMetadata({ params, searchParams }: { params: { id: string }, searchParams: { [key: string]: string | undefined } }): Promise<Metadata> {
+  const destination = (destinationsJson as Destination[]).find(dest => dest.id === params.id);
+  if (!destination) return {};
+
+  const origin = searchParams.origin || '東京';
+  const budget = searchParams.budget || '0';
+
+  return {
+    title: `${destination.name}への旅 | ${origin}から${Number(budget).toLocaleString()}円 | 旅さがし`,
+    description: `${origin}から${destination.name}への日帰り・1泊旅行プラン。交通費込みで${Number(budget).toLocaleString()}円以内。${destination.description}`,
+    openGraph: {
+      title: `${destination.name}への旅 - 旅さがし`,
+      description: `${origin}から${destination.name}へ。${destination.description}`,
+      url: `https://tabi-sagashi.netlify.app/destination/${params.id}`,
+      images: [
+        {
+          url: destination.imageUrl || 'https://tabi-sagashi.netlify.app/ogp.png',
+          width: 1200,
+          height: 630,
+          alt: `${destination.name}の旅行`,
+        }
+      ],
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${destination.name}への旅 - 旅さがし`,
+      description: `${origin}から${destination.name}へ。${destination.description}`,
+    },
+  };
+}
 
 export default function DestinationDetail({
   params,

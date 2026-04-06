@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(node -e \"const {FOOD_COST, SCHEDULES} = require\\('./src/data/constants'\\); console.log\\('FOOD_COST:', JSON.stringify\\(FOOD_COST\\)\\); console.log\\('SCHEDULES:', JSON.stringify\\(SCHEDULES\\)\\)\")",
+      "Bash(npx tsc:*)"
+    ]
+  }
+}
