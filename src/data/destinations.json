@@ -2988,5 +2988,1107 @@
     "largeAreaCode": "hokkaido",
     "latitude": 42.4528,
     "longitude": 141.1081
+  },
+  {
+    "id": "furano-01",
+    "name": "富良野・美瑛",
+    "prefecture": "北海道",
+    "themes": [
+      "自然",
+      "アクティビティ",
+      "カップル",
+      "子連れ"
+    ],
+    "description": "一面のラベンダー畑と丘陵地帯の絶景。四季折々の花畑が広がる北海道の原風景。富良野チーズ工房や青い池も人気スポット。",
+    "scene": [
+      "カップル",
+      "子連れ",
+      "一人旅"
+    ],
+    "season": "7月のラベンダー最盛期が特におすすめ。夏は花畑が絶景。",
+    "transport": {
+      "東京": {
+        "cost": 18000,
+        "minutes": 140,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 16000,
+        "minutes": 170,
+        "method": "飛行機"
+      },
+      "名古屋": {
+        "cost": 15000,
+        "minutes": 190,
+        "method": "飛行機"
+      },
+      "福岡": {
+        "cost": 20000,
+        "minutes": 240,
+        "method": "飛行機"
+      },
+      "札幌": {
+        "cost": 2500,
+        "minutes": 150,
+        "method": "在来線"
+      },
+      "仙台": {
+        "cost": 12000,
+        "minutes": 120,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 7000,
+      "standard": 12000,
+      "premium": 20000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/010000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 青い池",
+        "11:00 四季彩の丘",
+        "13:00 ランチ",
+        "14:30 ファーム富田",
+        "16:30 白ひげの滝"
+      ],
+      "overnight": [
+        "Day1: 青い池→四季彩の丘→ファーム富田→夕食",
+        "Day2: 白ひげの滝→富良野チーズ工房→旭山動物園"
+      ]
+    },
+    "spots": [
+      "ファーム富田",
+      "四季彩の丘",
+      "青い池",
+      "白ひげの滝",
+      "富良野チーズ工房"
+    ],
+    "largeAreaCode": "hokkaido",
+    "latitude": 43.3416,
+    "longitude": 142.3831
+  },
+  {
+    "id": "shiretoko-01",
+    "name": "知床",
+    "prefecture": "北海道",
+    "themes": [
+      "自然",
+      "アクティビティ",
+      "一人旅"
+    ],
+    "description": "世界自然遺産。手つかずの大自然の中でヒグマやシャチに出会える。知床五湖トレッキングは圧巻の絶景。",
+    "scene": [
+      "一人旅",
+      "カップル"
+    ],
+    "season": "5〜10月がシーズン。冬は流氷ツアーも人気。",
+    "transport": {
+      "東京": {
+        "cost": 23000,
+        "minutes": 190,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 21000,
+        "minutes": 170,
+        "method": "飛行機"
+      },
+      "名古屋": {
+        "cost": 20000,
+        "minutes": 180,
+        "method": "飛行機"
+      },
+      "福岡": {
+        "cost": 26000,
+        "minutes": 230,
+        "method": "飛行機"
+      },
+      "札幌": {
+        "cost": 5500,
+        "minutes": 300,
+        "method": "在来線"
+      },
+      "仙台": {
+        "cost": 15000,
+        "minutes": 180,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 8000,
+      "standard": 14000,
+      "premium": 22000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/010000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 知床五湖ガイドツアー",
+        "12:00 オシンコシンの滝",
+        "14:00 ランチ",
+        "15:30 知床峠展望台",
+        "17:00 帰路"
+      ],
+      "overnight": [
+        "Day1: 知床五湖トレッキング→オシンコシンの滝→知床の宿",
+        "Day2: クルーズ船→知床峠→フレペの滝"
+      ]
+    },
+    "spots": [
+      "知床五湖",
+      "オシンコシンの滝",
+      "知床峠",
+      "フレペの滝",
+      "クルーズ船"
+    ],
+    "largeAreaCode": "hokkaido",
+    "latitude": 44.076,
+    "longitude": 145.118
+  },
+  {
+    "id": "naha-01",
+    "name": "那覇",
+    "prefecture": "沖縄県",
+    "themes": [
+      "歴史",
+      "グルメ",
+      "アクティビティ",
+      "一人旅",
+      "友達"
+    ],
+    "description": "沖縄の玄関口。首里城と国際通りを中心に、沖縄文化と食を満喫できる。牧志公設市場の活気も魅力。",
+    "scene": [
+      "一人旅",
+      "友達",
+      "カップル"
+    ],
+    "season": "3〜6月（梅雨前）と10〜12月が過ごしやすい。",
+    "transport": {
+      "東京": {
+        "cost": 15000,
+        "minutes": 160,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 12000,
+        "minutes": 130,
+        "method": "飛行機"
+      },
+      "名古屋": {
+        "cost": 13000,
+        "minutes": 140,
+        "method": "飛行機"
+      },
+      "福岡": {
+        "cost": 9000,
+        "minutes": 100,
+        "method": "飛行機"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 240,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 18000,
+        "minutes": 200,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 5000,
+      "standard": 10000,
+      "premium": 20000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/470000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 首里城",
+        "11:30 国際通り散策",
+        "13:00 牧志市場でランチ",
+        "15:00 壺屋やちむん通り",
+        "16:30 波上宮"
+      ],
+      "overnight": [
+        "Day1: 首里城→国際通り→牧志市場→夕食",
+        "Day2: 波上宮→壺屋通り→ショッピング→帰路"
+      ]
+    },
+    "spots": [
+      "首里城",
+      "国際通り",
+      "牧志公設市場",
+      "壺屋やちむん通り",
+      "波上宮"
+    ],
+    "largeAreaCode": "okinawa",
+    "latitude": 26.2124,
+    "longitude": 127.6809
+  },
+  {
+    "id": "miyakojima-01",
+    "name": "宮古島",
+    "prefecture": "沖縄県",
+    "themes": [
+      "自然",
+      "アクティビティ",
+      "カップル",
+      "友達"
+    ],
+    "description": "透明度抜群のエメラルドグリーンの海。与那覇前浜ビーチは日本一美しいビーチのひとつ。伊良部大橋のドライブも絶景。",
+    "scene": [
+      "カップル",
+      "友達",
+      "一人旅"
+    ],
+    "season": "4〜10月が海水浴シーズン。",
+    "transport": {
+      "東京": {
+        "cost": 20000,
+        "minutes": 200,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 17000,
+        "minutes": 180,
+        "method": "飛行機"
+      },
+      "名古屋": {
+        "cost": 18000,
+        "minutes": 190,
+        "method": "飛行機"
+      },
+      "福岡": {
+        "cost": 14000,
+        "minutes": 160,
+        "method": "飛行機"
+      },
+      "札幌": {
+        "cost": 25000,
+        "minutes": 310,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 21000,
+        "minutes": 260,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 7000,
+      "standard": 15000,
+      "premium": 28000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/470000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 伊良部大橋ドライブ",
+        "11:00 シュノーケリング",
+        "13:00 ランチ",
+        "14:30 与那覇前浜ビーチ",
+        "17:00 夕日鑑賞"
+      ],
+      "overnight": [
+        "Day1: 伊良部大橋→シュノーケリング→夕食",
+        "Day2: 与那覇前浜ビーチ→来間大橋→雪塩ミュージアム"
+      ]
+    },
+    "spots": [
+      "与那覇前浜ビーチ",
+      "イムギャーマリンガーデン",
+      "来間大橋",
+      "雪塩ミュージアム",
+      "伊良部大橋"
+    ],
+    "largeAreaCode": "okinawa",
+    "latitude": 24.8056,
+    "longitude": 125.2814
+  },
+  {
+    "id": "ishigaki-01",
+    "name": "石垣島",
+    "prefecture": "沖縄県",
+    "themes": [
+      "自然",
+      "アクティビティ",
+      "カップル",
+      "友達"
+    ],
+    "description": "八重山諸島の拠点。川平湾のグラスボートと白保のサンゴ礁が世界的に有名。竹富島への離島観光も人気。",
+    "scene": [
+      "カップル",
+      "友達",
+      "一人旅"
+    ],
+    "season": "5〜9月が海のシーズン。冬も温暖。",
+    "transport": {
+      "東京": {
+        "cost": 22000,
+        "minutes": 240,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 19000,
+        "minutes": 210,
+        "method": "飛行機"
+      },
+      "名古屋": {
+        "cost": 20000,
+        "minutes": 220,
+        "method": "飛行機"
+      },
+      "福岡": {
+        "cost": 16000,
+        "minutes": 180,
+        "method": "飛行機"
+      },
+      "札幌": {
+        "cost": 28000,
+        "minutes": 340,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 23000,
+        "minutes": 280,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 7000,
+      "standard": 14000,
+      "premium": 25000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1510816478827-3d82a5c2f58b?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/470000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 川平湾グラスボート",
+        "11:30 白保海岸",
+        "13:00 ランチ",
+        "14:30 玉取崎展望台",
+        "16:00 石垣島鍾乳洞"
+      ],
+      "overnight": [
+        "Day1: 川平湾→白保海岸→石垣島鍾乳洞→夕食",
+        "Day2: 竹富島日帰り観光→水牛車→コンドイビーチ"
+      ]
+    },
+    "spots": [
+      "川平湾",
+      "白保海岸",
+      "玉取崎展望台",
+      "石垣島鍾乳洞",
+      "竹富島"
+    ],
+    "largeAreaCode": "okinawa",
+    "latitude": 24.3448,
+    "longitude": 124.1566
+  },
+  {
+    "id": "nago-01",
+    "name": "沖縄北部（名護・本部）",
+    "prefecture": "沖縄県",
+    "themes": [
+      "自然",
+      "アクティビティ",
+      "子連れ",
+      "カップル"
+    ],
+    "description": "美ら海水族館を擁する沖縄北部。やんばるの森と美しい海が共存するエリア。古宇利島のドライブも絶景。",
+    "scene": [
+      "子連れ",
+      "カップル",
+      "家族"
+    ],
+    "season": "通年。夏は海水浴、冬でも15度以上で過ごしやすい。",
+    "transport": {
+      "東京": {
+        "cost": 15000,
+        "minutes": 200,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 12000,
+        "minutes": 170,
+        "method": "飛行機"
+      },
+      "名古屋": {
+        "cost": 13000,
+        "minutes": 180,
+        "method": "飛行機"
+      },
+      "福岡": {
+        "cost": 9000,
+        "minutes": 140,
+        "method": "飛行機"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 280,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 18000,
+        "minutes": 240,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 6000,
+      "standard": 12000,
+      "premium": 22000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1469955304767-a76b1df3fb54?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/470000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 沖縄美ら海水族館",
+        "12:00 エメラルドビーチ",
+        "14:00 備瀬フクギ並木",
+        "15:30 古宇利島ドライブ",
+        "17:30 今帰仁城跡"
+      ],
+      "overnight": [
+        "Day1: 美ら海水族館→エメラルドビーチ→夕食",
+        "Day2: 古宇利島→今帰仁城跡→備瀬フクギ並木"
+      ]
+    },
+    "spots": [
+      "沖縄美ら海水族館",
+      "古宇利島",
+      "今帰仁城跡",
+      "備瀬のフクギ並木",
+      "エメラルドビーチ"
+    ],
+    "largeAreaCode": "okinawa",
+    "latitude": 26.5916,
+    "longitude": 127.9779
+  },
+  {
+    "id": "kumejima-01",
+    "name": "久米島",
+    "prefecture": "沖縄県",
+    "themes": [
+      "自然",
+      "アクティビティ",
+      "カップル",
+      "一人旅"
+    ],
+    "description": "「畳石」と呼ばれる天然の六角形岩石と、ハテの浜の白砂ビーチが有名な離島。静かな島時間を楽しめる。",
+    "scene": [
+      "カップル",
+      "一人旅"
+    ],
+    "season": "4〜10月がベスト。",
+    "transport": {
+      "東京": {
+        "cost": 17000,
+        "minutes": 220,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 14000,
+        "minutes": 190,
+        "method": "飛行機"
+      },
+      "名古屋": {
+        "cost": 15000,
+        "minutes": 200,
+        "method": "飛行機"
+      },
+      "福岡": {
+        "cost": 11000,
+        "minutes": 160,
+        "method": "飛行機"
+      },
+      "札幌": {
+        "cost": 24000,
+        "minutes": 300,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 20000,
+        "minutes": 260,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 6000,
+      "standard": 12000,
+      "premium": 20000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/470000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 畳石",
+        "11:00 イーフビーチ",
+        "13:00 ランチ",
+        "14:30 久米島ホタル館",
+        "16:00 おばけ坂体験"
+      ],
+      "overnight": [
+        "Day1: 畳石→イーフビーチ→夕食",
+        "Day2: ハテの浜シュノーケリングツアー→土産物→帰路"
+      ]
+    },
+    "spots": [
+      "ハテの浜",
+      "畳石",
+      "イーフビーチ",
+      "おばけ坂",
+      "久米島ホタル館"
+    ],
+    "largeAreaCode": "okinawa",
+    "latitude": 26.3399,
+    "longitude": 126.7943
+  },
+  {
+    "id": "aso-01",
+    "name": "阿蘇",
+    "prefecture": "熊本県",
+    "themes": [
+      "自然",
+      "アクティビティ",
+      "カップル",
+      "子連れ"
+    ],
+    "description": "世界最大級のカルデラを持つ活火山。広大な草原と噴煙を上げる中岳が圧巻。乗馬体験なども楽しめる。",
+    "scene": [
+      "カップル",
+      "子連れ",
+      "友達"
+    ],
+    "season": "5〜10月。冬は積雪で通行止めになることも。",
+    "transport": {
+      "東京": {
+        "cost": 16000,
+        "minutes": 200,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 9000,
+        "minutes": 200,
+        "method": "新幹線"
+      },
+      "名古屋": {
+        "cost": 12000,
+        "minutes": 240,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 3200,
+        "minutes": 120,
+        "method": "在来線"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 310,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 18000,
+        "minutes": 270,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 7000,
+      "standard": 13000,
+      "premium": 22000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1535530992830-e25d07cfa780?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/430000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 大観峰",
+        "11:00 草千里ヶ浜",
+        "13:00 阿蘇ランチ",
+        "15:00 中岳火口見学",
+        "17:00 阿蘇神社"
+      ],
+      "overnight": [
+        "Day1: 大観峰→草千里ヶ浜→阿蘇の宿",
+        "Day2: 中岳火口→阿蘇神社→黒川温泉"
+      ]
+    },
+    "spots": [
+      "阿蘇中岳火口",
+      "草千里ヶ浜",
+      "米塚",
+      "阿蘇神社",
+      "大観峰"
+    ],
+    "largeAreaCode": "kyushu",
+    "latitude": 32.8843,
+    "longitude": 131.0868
+  },
+  {
+    "id": "yufuin-01",
+    "name": "由布院",
+    "prefecture": "大分県",
+    "themes": [
+      "温泉",
+      "自然",
+      "グルメ",
+      "カップル",
+      "一人旅"
+    ],
+    "description": "由布岳を望む高原の温泉地。おしゃれなカフェや美術館が集まる大人の隠れ家的リゾート。金鱗湖の朝霧が幻想的。",
+    "scene": [
+      "カップル",
+      "一人旅"
+    ],
+    "season": "秋の紅葉と冬の雪景色が最高。通年人気。",
+    "transport": {
+      "東京": {
+        "cost": 16000,
+        "minutes": 170,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 10000,
+        "minutes": 200,
+        "method": "新幹線"
+      },
+      "名古屋": {
+        "cost": 12000,
+        "minutes": 230,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 3500,
+        "minutes": 90,
+        "method": "特急"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 280,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 18000,
+        "minutes": 250,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 10000,
+      "standard": 18000,
+      "premium": 35000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1527277637062-da8b45b0cc2f?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/440000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "10:00 金鱗湖",
+        "11:00 湯の坪街道散策",
+        "13:00 ランチ",
+        "15:00 フローラルヴィレッジ",
+        "16:30 日帰り温泉"
+      ],
+      "overnight": [
+        "Day1: 金鱗湖→湯の坪街道→温泉旅館",
+        "Day2: 由布岳ハイク（軽め）→フローラルヴィレッジ→帰路"
+      ]
+    },
+    "spots": [
+      "金鱗湖",
+      "湯の坪街道",
+      "由布岳",
+      "由布院フローラルヴィレッジ",
+      "辻馬車"
+    ],
+    "largeAreaCode": "kyushu",
+    "latitude": 33.2606,
+    "longitude": 131.3664
+  },
+  {
+    "id": "yakushima-01",
+    "name": "屋久島",
+    "prefecture": "鹿児島県",
+    "themes": [
+      "自然",
+      "アクティビティ",
+      "一人旅",
+      "カップル"
+    ],
+    "description": "世界自然遺産の島。樹齢7200年の縄文杉と苔むす森が神秘的な雰囲気を醸し出す。トレッキングの聖地。",
+    "scene": [
+      "一人旅",
+      "カップル"
+    ],
+    "season": "5〜10月。縄文杉トレッキングは体力が必要。",
+    "transport": {
+      "東京": {
+        "cost": 18000,
+        "minutes": 210,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 15000,
+        "minutes": 180,
+        "method": "飛行機"
+      },
+      "名古屋": {
+        "cost": 16000,
+        "minutes": 190,
+        "method": "飛行機"
+      },
+      "福岡": {
+        "cost": 10000,
+        "minutes": 140,
+        "method": "飛行機"
+      },
+      "札幌": {
+        "cost": 25000,
+        "minutes": 310,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 20000,
+        "minutes": 260,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 7000,
+      "standard": 13000,
+      "premium": 22000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/460000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 白谷雲水峡トレッキング",
+        "12:00 ランチ",
+        "14:00 ヤクスギランド",
+        "16:00 千尋の滝",
+        "18:00 宿で温泉"
+      ],
+      "overnight": [
+        "Day1: 白谷雲水峡→ヤクスギランド→屋久島の宿",
+        "Day2: 縄文杉トレッキング（往復約10時間）"
+      ]
+    },
+    "spots": [
+      "縄文杉",
+      "白谷雲水峡",
+      "ヤクスギランド",
+      "千尋の滝",
+      "屋久島灯台"
+    ],
+    "largeAreaCode": "kyushu",
+    "latitude": 30.3623,
+    "longitude": 130.546
+  },
+  {
+    "id": "dazaifu-01",
+    "name": "太宰府",
+    "prefecture": "福岡県",
+    "themes": [
+      "歴史",
+      "グルメ",
+      "子連れ",
+      "一人旅"
+    ],
+    "description": "全国天満宮の総本社・太宰府天満宮を中心に、参道の梅ヶ枝餅と九州国立博物館が人気。修学旅行にも定番の歴史スポット。",
+    "scene": [
+      "子連れ",
+      "一人旅",
+      "友達"
+    ],
+    "season": "2月の梅・春の桜が特に美しい。",
+    "transport": {
+      "東京": {
+        "cost": 21000,
+        "minutes": 320,
+        "method": "新幹線"
+      },
+      "大阪": {
+        "cost": 12000,
+        "minutes": 170,
+        "method": "新幹線"
+      },
+      "名古屋": {
+        "cost": 15000,
+        "minutes": 220,
+        "method": "新幹線"
+      },
+      "福岡": {
+        "cost": 400,
+        "minutes": 30,
+        "method": "在来線"
+      },
+      "札幌": {
+        "cost": 18000,
+        "minutes": 260,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 27000,
+        "minutes": 390,
+        "method": "新幹線"
+      }
+    },
+    "lodging": {
+      "budget": 5000,
+      "standard": 9000,
+      "premium": 15000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/400000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "10:00 太宰府天満宮参拝",
+        "11:30 梅ヶ枝餅食べ歩き",
+        "13:00 九州国立博物館",
+        "15:00 竈門神社",
+        "16:30 光明禅寺"
+      ],
+      "overnight": [
+        "Day1: 太宰府天満宮→九州国立博物館→福岡市内泊",
+        "Day2: 竈門神社→光明禅寺→都府楼跡→帰路"
+      ]
+    },
+    "spots": [
+      "太宰府天満宮",
+      "九州国立博物館",
+      "光明禅寺",
+      "竈門神社",
+      "都府楼跡"
+    ],
+    "largeAreaCode": "kyushu",
+    "latitude": 33.5124,
+    "longitude": 130.5339
+  },
+  {
+    "id": "miyazaki-01",
+    "name": "宮崎",
+    "prefecture": "宮崎県",
+    "themes": [
+      "自然",
+      "歴史",
+      "アクティビティ",
+      "カップル"
+    ],
+    "description": "「太陽の国」と呼ばれる南国リゾート。鬼の洗濯板と青島神社が絶景。高千穂峡の神秘的な景観も必見。",
+    "scene": [
+      "カップル",
+      "一人旅",
+      "友達"
+    ],
+    "season": "通年温暖。夏のサーフィンと秋の高千穂峡が人気。",
+    "transport": {
+      "東京": {
+        "cost": 16000,
+        "minutes": 135,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 12000,
+        "minutes": 100,
+        "method": "飛行機"
+      },
+      "名古屋": {
+        "cost": 13000,
+        "minutes": 110,
+        "method": "飛行機"
+      },
+      "福岡": {
+        "cost": 3500,
+        "minutes": 125,
+        "method": "在来線"
+      },
+      "札幌": {
+        "cost": 22000,
+        "minutes": 260,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 18000,
+        "minutes": 220,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 5000,
+      "standard": 10000,
+      "premium": 18000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/450000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:30 青島神社",
+        "11:00 鬼の洗濯板散策",
+        "13:00 宮崎グルメランチ",
+        "15:00 フローランテ宮崎",
+        "17:00 宮崎市内散策"
+      ],
+      "overnight": [
+        "Day1: 青島神社→鬼の洗濯板→宮崎の宿",
+        "Day2: 高千穂峡→天安河原→帰路"
+      ]
+    },
+    "spots": [
+      "青島神社",
+      "鬼の洗濯板",
+      "高千穂峡",
+      "都井岬",
+      "フローランテ宮崎"
+    ],
+    "largeAreaCode": "kyushu",
+    "latitude": 31.9029,
+    "longitude": 131.4238
+  },
+  {
+    "id": "goto-01",
+    "name": "五島列島",
+    "prefecture": "長崎県",
+    "themes": [
+      "自然",
+      "歴史",
+      "アクティビティ",
+      "一人旅",
+      "カップル"
+    ],
+    "description": "長崎港からフェリーで行けるキリシタンの島。世界遺産の教会群と透明な海が魅力の離島。ゆったりとした島時間を満喫できる。",
+    "scene": [
+      "一人旅",
+      "カップル"
+    ],
+    "season": "5〜10月。海水浴と教会巡りが同時にできる。",
+    "transport": {
+      "東京": {
+        "cost": 22000,
+        "minutes": 260,
+        "method": "飛行機"
+      },
+      "大阪": {
+        "cost": 18000,
+        "minutes": 230,
+        "method": "飛行機"
+      },
+      "名古屋": {
+        "cost": 19000,
+        "minutes": 240,
+        "method": "飛行機"
+      },
+      "福岡": {
+        "cost": 8000,
+        "minutes": 90,
+        "method": "飛行機"
+      },
+      "札幌": {
+        "cost": 26000,
+        "minutes": 330,
+        "method": "飛行機"
+      },
+      "仙台": {
+        "cost": 22000,
+        "minutes": 290,
+        "method": "飛行機"
+      }
+    },
+    "lodging": {
+      "budget": 7000,
+      "standard": 12000,
+      "premium": 20000
+    },
+    "tags": {
+      "family": true
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1509773896068-7fd415d91e2e?w=600&q=80",
+    "externalLinks": {
+      "jalan": "https://www.jalan.net/kankou/420000/"
+    },
+    "modelCourse": {
+      "dayTrip": [
+        "09:00 堂崎天主堂",
+        "11:00 水ノ浦教会",
+        "13:00 ランチ",
+        "14:30 高浜ビーチ",
+        "16:30 大瀬崎灯台"
+      ],
+      "overnight": [
+        "Day1: 堂崎天主堂→水ノ浦教会→五島の宿",
+        "Day2: 高浜ビーチ→鬼岳→大瀬崎灯台→帰路"
+      ]
+    },
+    "spots": [
+      "堂崎天主堂",
+      "水ノ浦教会",
+      "大瀬崎灯台",
+      "高浜ビーチ",
+      "鬼岳"
+    ],
+    "largeAreaCode": "kyushu",
+    "latitude": 32.6873,
+    "longitude": 128.8395
   }
 ]
